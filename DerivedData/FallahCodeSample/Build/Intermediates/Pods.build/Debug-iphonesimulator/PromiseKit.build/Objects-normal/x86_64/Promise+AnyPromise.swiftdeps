@@ -1,0 +1,128 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "firstly"
+provides-nominal:
+provides-member:
+- ["C10PromiseKit7Promise", ""]
+- ["C10PromiseKit7Promise", "then"]
+- ["C10PromiseKit7Promise", "then"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AnyPromise"
+- "DispatchQueue"
+- "Promise"
+- !private "Resolution"
+- !private "StringLiteralType"
+- !private "fatalError"
+- "firstly"
+depends-member:
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "pipe"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["C10PromiseKit10AnyPromise", "state"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "state"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Promise"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- !private ["CSo14DispatchObject", "default"]
+- !private ["CSo13DispatchQueue", "default"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "state"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "state"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "state"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- !private ["CSo9OS_object", "default"]
+- ["C10PromiseKit7Promise", "AnyObject"]
+- ["C10PromiseKit7Promise", "AnyPromise"]
+- ["C10PromiseKit7Promise", "DispatchQueue"]
+- ["C10PromiseKit7Promise", "Promise"]
+- ["C10PromiseKit7Promise", "T"]
+- !private ["C10PromiseKit7Promise", "fatalError"]
+- !private ["C10PromiseKit7Promise", "init"]
+- !private ["C10PromiseKit7Promise", "state"]
+- ["C10PromiseKit7Promise", "then"]
+- !private ["O10PromiseKit10Resolution", "init"]
+- !private ["C10PromiseKit5State", "pipe"]
+- !private ["C10PromiseKit5State", "then"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "state"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "C10PromiseKit10AnyPromise"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- "C10PromiseKit7Promise"
+- !private "O10PromiseKit10Resolution"
+- !private "C10PromiseKit5State"
+- !private "Vs12StaticString"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+interface-hash: "6d733599256c3c3da05339befbf45cb3"

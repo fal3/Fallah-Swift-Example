@@ -1,0 +1,294 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UIImageLoadImageCompletionHandler"
+provides-nominal:
+provides-member:
+- ["CSo11UIImageView", ""]
+- ["CSo11UIImageView", "loadImage"]
+provides-dynamic-lookup:
+- "loadImage"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- !private "DispatchQueue"
+- "Error"
+- "GMSPlacePhotoMetadata"
+- !private "GMSPlacesClient"
+- "Swift"
+- "UIImageLoadImageCompletionHandler"
+- "UIImageView"
+- !private "Void"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "GMSPlacesClient"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "loadPlacePhoto"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["PSo15CALayerDelegate", "DispatchQueue"]
+- !private ["PSo15CALayerDelegate", "GMSPlacesClient"]
+- !private ["PSo15CALayerDelegate", "image"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "GMSPlacesClient"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "loadPlacePhoto"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "GMSPlacesClient"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "loadPlacePhoto"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "GMSPlacesClient"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "loadPlacePhoto"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "GMSPlacesClient"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "loadPlacePhoto"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["CSo15GMSPlacesClient", "loadPlacePhoto"]
+- !private ["CSo15GMSPlacesClient", "shared"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "GMSPlacesClient"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "loadPlacePhoto"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["PSo8NSCoding", "DispatchQueue"]
+- !private ["PSo8NSCoding", "GMSPlacesClient"]
+- !private ["PSo8NSCoding", "image"]
+- !private ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "GMSPlacePhotoMetadata"]
+- !private ["CSo8NSObject", "GMSPlacesClient"]
+- ["CSo8NSObject", "UIImageLoadImageCompletionHandler"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "async"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "loadImage"]
+- !private ["CSo8NSObject", "loadPlacePhoto"]
+- !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "GMSPlacesClient"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "loadPlacePhoto"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["PSo29UIAccessibilityIdentification", "DispatchQueue"]
+- !private ["PSo29UIAccessibilityIdentification", "GMSPlacesClient"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo12UIAppearance", "DispatchQueue"]
+- !private ["PSo12UIAppearance", "GMSPlacesClient"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
+- !private ["PSo21UIAppearanceContainer", "GMSPlacesClient"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- !private ["PSo17UICoordinateSpace", "DispatchQueue"]
+- !private ["PSo17UICoordinateSpace", "GMSPlacesClient"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo13UIDynamicItem", "DispatchQueue"]
+- !private ["PSo13UIDynamicItem", "GMSPlacesClient"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
+- !private ["PSo18UIFocusEnvironment", "GMSPlacesClient"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- !private ["PSo11UIFocusItem", "DispatchQueue"]
+- !private ["PSo11UIFocusItem", "GMSPlacesClient"]
+- !private ["PSo11UIFocusItem", "image"]
+- !private ["CSo11UIImageView", "DispatchQueue"]
+- ["CSo11UIImageView", "GMSPlacePhotoMetadata"]
+- !private ["CSo11UIImageView", "GMSPlacesClient"]
+- ["CSo11UIImageView", "UIImageLoadImageCompletionHandler"]
+- !private ["CSo11UIImageView", "Void"]
+- !private ["CSo11UIImageView", "image"]
+- ["CSo11UIImageView", "loadImage"]
+- !private ["CSo11UIResponder", "DispatchQueue"]
+- ["CSo11UIResponder", "GMSPlacePhotoMetadata"]
+- !private ["CSo11UIResponder", "GMSPlacesClient"]
+- ["CSo11UIResponder", "UIImageLoadImageCompletionHandler"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "loadImage"]
+- !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
+- !private ["PSo30UIResponderStandardEditActions", "GMSPlacesClient"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- !private ["PSo18UITraitEnvironment", "DispatchQueue"]
+- !private ["PSo18UITraitEnvironment", "GMSPlacesClient"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- !private ["CSo6UIView", "DispatchQueue"]
+- ["CSo6UIView", "GMSPlacePhotoMetadata"]
+- !private ["CSo6UIView", "GMSPlacesClient"]
+- ["CSo6UIView", "UIImageLoadImageCompletionHandler"]
+- !private ["CSo6UIView", "Void"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "loadImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "DispatchQueue"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "GMSPlacesClient"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "GMSPlacesClient"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "loadPlacePhoto"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "shared"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "Ps9Equatable"
+- !private "CSo15GMSPlacesClient"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout+Internal.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GooglePlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayoutDefines.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSLayoutConstraint+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/ALView+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSArray+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Modules/module.modulemap"
+interface-hash: "4ec451f5ef4c2b8dce118facacb53538"

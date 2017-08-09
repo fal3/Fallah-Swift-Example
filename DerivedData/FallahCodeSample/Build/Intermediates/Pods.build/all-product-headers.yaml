@@ -1,0 +1,177 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/Pods_FallahCodeSample.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-FallahCodeSample-umbrella.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/Pods-FallahCodeSample/Pods-FallahCodeSample-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_FallahCodeSample-Swift.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/Pods_FallahCodeSample.framework/Headers/Pods_FallahCodeSample-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/Pods_FallahCodeSample.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-FallahCodeSample.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "CALayer+AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSNotificationCenter+AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSTask+AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSURLSession+AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "PMKFoundation.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+        },
+        {
+          'type': 'file',
+          'name': "PMKQuartzCore.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/PMKQuartzCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "PMKUIKit.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "PromiseKit-Swift.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PromiseKit-umbrella.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PromiseKit.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/PromiseKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+AnyPromise.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+        },
+        {
+          'type': 'file',
+          'name': "fwd.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/fwd.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/PromiseKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ALView+PureLayout.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+PureLayout.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSLayoutConstraint+PureLayout.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "PureLayout+Internal.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "PureLayout-Swift.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PureLayout-umbrella.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/PureLayout/PureLayout-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PureLayout.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PureLayout/PureLayout/PureLayout/PureLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "PureLayoutDefines.h",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/PureLayout.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

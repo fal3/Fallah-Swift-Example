@@ -1,0 +1,1418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C16FallahCodeSample11AppDelegate"
+provides-member:
+- ["C16FallahCodeSample11AppDelegate", ""]
+provides-dynamic-lookup:
+- "addressBookRequestAccess"
+- "appHasOpenedBefore"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationDocumentsDirectory"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "checkAndSetFirstOpen"
+- "currentLocation"
+- "initLocationManager"
+- "locationManager"
+- "managedObjectContext"
+- "managedObjectModel"
+- "persistentStoreCoordinator"
+- "prePopulateStatuses"
+- "window"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "ABAddressBookGetAuthorizationStatus"
+- !private "ABAddressBookRef"
+- !private "ABAddressBookRequestAccessWithCompletion"
+- !private "Analytics"
+- !private "AnyHashable"
+- "AppDelegate"
+- !private "Appsee"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CFError"
+- "CLLocation"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- "CastingPrecedence"
+- "Error"
+- !private "FileManager"
+- !private "NSInferMappingModelAutomaticallyOption"
+- "NSManagedObjectContext"
+- "NSManagedObjectModel"
+- !private "NSMigratePersistentStoresAutomaticallyOption"
+- "NSPersistentStoreCoordinator"
+- !private "NSSQLiteStoreType"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- !private "UINavigationController"
+- "UIResponder"
+- !private "UITabBarController"
+- !private "UIViewController"
+- "UIWindow"
+- "URL"
+- !private "UserDefaults"
+- !private "Void"
+- !private "kABAuthorizationStatus"
+- !private "kABAuthorizationStatusNotDetermined"
+- !private "kAppSeeAppKey"
+- !private "kCLLocationAccuracyKilometer"
+- !private "kFirstOpen"
+- !private "kSegmentWriteKey"
+- !private "kStatuses"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps9AnyObject", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps9AnyObject", "Analytics"]
+- !private ["Ps9AnyObject", "Appsee"]
+- !private ["Ps9AnyObject", "CLLocationManager"]
+- !private ["Ps9AnyObject", "FileManager"]
+- !private ["Ps9AnyObject", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps9AnyObject", "NSManagedObjectContext"]
+- !private ["Ps9AnyObject", "NSManagedObjectModel"]
+- !private ["Ps9AnyObject", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps9AnyObject", "NSPersistentStoreCoordinator"]
+- !private ["Ps9AnyObject", "NSSQLiteStoreType"]
+- !private ["Ps9AnyObject", "UserDefaults"]
+- !private ["Ps9AnyObject", "_managedObjectContext"]
+- !private ["Ps9AnyObject", "_managedObjectModel"]
+- !private ["Ps9AnyObject", "_persistentStoreCoordinator"]
+- !private ["Ps9AnyObject", "addPersistentStore"]
+- !private ["Ps9AnyObject", "addressBookRequestAccess"]
+- !private ["Ps9AnyObject", "appHasOpenedBefore"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "applicationDocumentsDirectory"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "checkAndSetFirstOpen"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Ps9AnyObject", "currentLocation"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "desiredAccuracy"]
+- !private ["Ps9AnyObject", "distanceFilter"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initLocationManager"]
+- !private ["Ps9AnyObject", "kABAuthorizationStatus"]
+- !private ["Ps9AnyObject", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps9AnyObject", "kAppSeeAppKey"]
+- !private ["Ps9AnyObject", "kCLLocationAccuracyKilometer"]
+- !private ["Ps9AnyObject", "kFirstOpen"]
+- !private ["Ps9AnyObject", "kSegmentWriteKey"]
+- !private ["Ps9AnyObject", "kStatuses"]
+- !private ["Ps9AnyObject", "location"]
+- ["Ps9AnyObject", "locationManager"]
+- ["Ps9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9AnyObject", "managedObjectModel"]
+- !private ["Ps9AnyObject", "mergedModel"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "persistentStoreCoordinator"]
+- !private ["Ps9AnyObject", "popToRootViewController"]
+- !private ["Ps9AnyObject", "prePopulateStatuses"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "selectedIndex"]
+- !private ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "startUpdatingLocation"]
+- !private ["Ps9AnyObject", "synchronize"]
+- !private ["Ps9AnyObject", "urls"]
+- !private ["Ps9AnyObject", "viewControllers"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- !private ["C16FallahCodeSample11AppDelegate", "ABAddressBookGetAuthorizationStatus"]
+- !private ["C16FallahCodeSample11AppDelegate", "ABAddressBookRef"]
+- !private ["C16FallahCodeSample11AppDelegate", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["C16FallahCodeSample11AppDelegate", "Analytics"]
+- !private ["C16FallahCodeSample11AppDelegate", "AnyHashable"]
+- !private ["C16FallahCodeSample11AppDelegate", "Appsee"]
+- ["C16FallahCodeSample11AppDelegate", "Bool"]
+- !private ["C16FallahCodeSample11AppDelegate", "CFError"]
+- ["C16FallahCodeSample11AppDelegate", "CLLocation"]
+- ["C16FallahCodeSample11AppDelegate", "CLLocationManager"]
+- ["C16FallahCodeSample11AppDelegate", "Error"]
+- !private ["C16FallahCodeSample11AppDelegate", "FileManager"]
+- !private ["C16FallahCodeSample11AppDelegate", "NSInferMappingModelAutomaticallyOption"]
+- ["C16FallahCodeSample11AppDelegate", "NSManagedObjectContext"]
+- ["C16FallahCodeSample11AppDelegate", "NSManagedObjectModel"]
+- !private ["C16FallahCodeSample11AppDelegate", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["C16FallahCodeSample11AppDelegate", "NSPersistentStoreCoordinator"]
+- !private ["C16FallahCodeSample11AppDelegate", "NSSQLiteStoreType"]
+- ["C16FallahCodeSample11AppDelegate", "UIApplication"]
+- ["C16FallahCodeSample11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- !private ["C16FallahCodeSample11AppDelegate", "UINavigationController"]
+- !private ["C16FallahCodeSample11AppDelegate", "UITabBarController"]
+- !private ["C16FallahCodeSample11AppDelegate", "UIViewController"]
+- ["C16FallahCodeSample11AppDelegate", "UIWindow"]
+- ["C16FallahCodeSample11AppDelegate", "URL"]
+- !private ["C16FallahCodeSample11AppDelegate", "UserDefaults"]
+- !private ["C16FallahCodeSample11AppDelegate", "Void"]
+- !private ["C16FallahCodeSample11AppDelegate", "_managedObjectContext"]
+- !private ["C16FallahCodeSample11AppDelegate", "_managedObjectModel"]
+- !private ["C16FallahCodeSample11AppDelegate", "_persistentStoreCoordinator"]
+- ["C16FallahCodeSample11AppDelegate", "addressBookRequestAccess"]
+- ["C16FallahCodeSample11AppDelegate", "appHasOpenedBefore"]
+- ["C16FallahCodeSample11AppDelegate", "application"]
+- ["C16FallahCodeSample11AppDelegate", "applicationDidBecomeActive"]
+- ["C16FallahCodeSample11AppDelegate", "applicationDidEnterBackground"]
+- ["C16FallahCodeSample11AppDelegate", "applicationDidFinishLaunching"]
+- ["C16FallahCodeSample11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C16FallahCodeSample11AppDelegate", "applicationDocumentsDirectory"]
+- ["C16FallahCodeSample11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C16FallahCodeSample11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C16FallahCodeSample11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C16FallahCodeSample11AppDelegate", "applicationSignificantTimeChange"]
+- ["C16FallahCodeSample11AppDelegate", "applicationWillEnterForeground"]
+- ["C16FallahCodeSample11AppDelegate", "applicationWillResignActive"]
+- ["C16FallahCodeSample11AppDelegate", "applicationWillTerminate"]
+- ["C16FallahCodeSample11AppDelegate", "checkAndSetFirstOpen"]
+- ["C16FallahCodeSample11AppDelegate", "currentLocation"]
+- ["C16FallahCodeSample11AppDelegate", "deinit"]
+- ["C16FallahCodeSample11AppDelegate", "init"]
+- ["C16FallahCodeSample11AppDelegate", "initLocationManager"]
+- !private ["C16FallahCodeSample11AppDelegate", "kABAuthorizationStatus"]
+- !private ["C16FallahCodeSample11AppDelegate", "kABAuthorizationStatusNotDetermined"]
+- !private ["C16FallahCodeSample11AppDelegate", "kAppSeeAppKey"]
+- !private ["C16FallahCodeSample11AppDelegate", "kCLLocationAccuracyKilometer"]
+- !private ["C16FallahCodeSample11AppDelegate", "kFirstOpen"]
+- !private ["C16FallahCodeSample11AppDelegate", "kSegmentWriteKey"]
+- !private ["C16FallahCodeSample11AppDelegate", "kStatuses"]
+- ["C16FallahCodeSample11AppDelegate", "locationManager"]
+- ["C16FallahCodeSample11AppDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["C16FallahCodeSample11AppDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["C16FallahCodeSample11AppDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- ["C16FallahCodeSample11AppDelegate", "managedObjectContext"]
+- ["C16FallahCodeSample11AppDelegate", "managedObjectModel"]
+- ["C16FallahCodeSample11AppDelegate", "persistentStoreCoordinator"]
+- ["C16FallahCodeSample11AppDelegate", "prePopulateStatuses"]
+- !private ["C16FallahCodeSample11AppDelegate", "print"]
+- ["C16FallahCodeSample11AppDelegate", "window"]
+- !private ["Sa", "last"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["CSo10CLLocation", "coordinate"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["CSo17CLLocationManager", "delegate"]
+- !private ["CSo17CLLocationManager", "desiredAccuracy"]
+- !private ["CSo17CLLocationManager", "distanceFilter"]
+- !private ["CSo17CLLocationManager", "init"]
+- !private ["CSo17CLLocationManager", "location"]
+- !private ["CSo17CLLocationManager", "startUpdatingLocation"]
+- !private ["PSo25CLLocationManagerDelegate", "ABAddressBookGetAuthorizationStatus"]
+- !private ["PSo25CLLocationManagerDelegate", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["PSo25CLLocationManagerDelegate", "Analytics"]
+- !private ["PSo25CLLocationManagerDelegate", "Appsee"]
+- !private ["PSo25CLLocationManagerDelegate", "CLLocationManager"]
+- !private ["PSo25CLLocationManagerDelegate", "FileManager"]
+- !private ["PSo25CLLocationManagerDelegate", "NSInferMappingModelAutomaticallyOption"]
+- !private ["PSo25CLLocationManagerDelegate", "NSManagedObjectContext"]
+- !private ["PSo25CLLocationManagerDelegate", "NSManagedObjectModel"]
+- !private ["PSo25CLLocationManagerDelegate", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["PSo25CLLocationManagerDelegate", "NSPersistentStoreCoordinator"]
+- !private ["PSo25CLLocationManagerDelegate", "NSSQLiteStoreType"]
+- !private ["PSo25CLLocationManagerDelegate", "UserDefaults"]
+- !private ["PSo25CLLocationManagerDelegate", "_managedObjectContext"]
+- !private ["PSo25CLLocationManagerDelegate", "_managedObjectModel"]
+- !private ["PSo25CLLocationManagerDelegate", "_persistentStoreCoordinator"]
+- !private ["PSo25CLLocationManagerDelegate", "addressBookRequestAccess"]
+- !private ["PSo25CLLocationManagerDelegate", "appHasOpenedBefore"]
+- ["PSo25CLLocationManagerDelegate", "application"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidBecomeActive"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidEnterBackground"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidFinishLaunching"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidReceiveMemoryWarning"]
+- !private ["PSo25CLLocationManagerDelegate", "applicationDocumentsDirectory"]
+- ["PSo25CLLocationManagerDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo25CLLocationManagerDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo25CLLocationManagerDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo25CLLocationManagerDelegate", "applicationSignificantTimeChange"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillEnterForeground"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillResignActive"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillTerminate"]
+- !private ["PSo25CLLocationManagerDelegate", "checkAndSetFirstOpen"]
+- !private ["PSo25CLLocationManagerDelegate", "currentLocation"]
+- !private ["PSo25CLLocationManagerDelegate", "initLocationManager"]
+- !private ["PSo25CLLocationManagerDelegate", "kABAuthorizationStatus"]
+- !private ["PSo25CLLocationManagerDelegate", "kABAuthorizationStatusNotDetermined"]
+- !private ["PSo25CLLocationManagerDelegate", "kAppSeeAppKey"]
+- !private ["PSo25CLLocationManagerDelegate", "kCLLocationAccuracyKilometer"]
+- !private ["PSo25CLLocationManagerDelegate", "kFirstOpen"]
+- !private ["PSo25CLLocationManagerDelegate", "kSegmentWriteKey"]
+- !private ["PSo25CLLocationManagerDelegate", "kStatuses"]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo25CLLocationManagerDelegate", "managedObjectModel"]
+- !private ["PSo25CLLocationManagerDelegate", "persistentStoreCoordinator"]
+- !private ["PSo25CLLocationManagerDelegate", "prePopulateStatuses"]
+- !private ["PSo25CLLocationManagerDelegate", "print"]
+- ["PSo25CLLocationManagerDelegate", "window"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- !private ["Ps7CVarArg", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps7CVarArg", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps7CVarArg", "Analytics"]
+- !private ["Ps7CVarArg", "Appsee"]
+- !private ["Ps7CVarArg", "CLLocationManager"]
+- !private ["Ps7CVarArg", "FileManager"]
+- !private ["Ps7CVarArg", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps7CVarArg", "NSManagedObjectContext"]
+- !private ["Ps7CVarArg", "NSManagedObjectModel"]
+- !private ["Ps7CVarArg", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps7CVarArg", "NSPersistentStoreCoordinator"]
+- !private ["Ps7CVarArg", "NSSQLiteStoreType"]
+- !private ["Ps7CVarArg", "UserDefaults"]
+- !private ["Ps7CVarArg", "_managedObjectContext"]
+- !private ["Ps7CVarArg", "_managedObjectModel"]
+- !private ["Ps7CVarArg", "_persistentStoreCoordinator"]
+- !private ["Ps7CVarArg", "addPersistentStore"]
+- !private ["Ps7CVarArg", "addressBookRequestAccess"]
+- !private ["Ps7CVarArg", "appHasOpenedBefore"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "applicationDocumentsDirectory"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "checkAndSetFirstOpen"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps7CVarArg", "currentLocation"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "desiredAccuracy"]
+- !private ["Ps7CVarArg", "distanceFilter"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initLocationManager"]
+- !private ["Ps7CVarArg", "kABAuthorizationStatus"]
+- !private ["Ps7CVarArg", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps7CVarArg", "kAppSeeAppKey"]
+- !private ["Ps7CVarArg", "kCLLocationAccuracyKilometer"]
+- !private ["Ps7CVarArg", "kFirstOpen"]
+- !private ["Ps7CVarArg", "kSegmentWriteKey"]
+- !private ["Ps7CVarArg", "kStatuses"]
+- !private ["Ps7CVarArg", "last"]
+- !private ["Ps7CVarArg", "location"]
+- ["Ps7CVarArg", "locationManager"]
+- ["Ps7CVarArg", "locationManagerDidPauseLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerDidResumeLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps7CVarArg", "managedObjectModel"]
+- !private ["Ps7CVarArg", "mergedModel"]
+- !private ["Ps7CVarArg", "object"]
+- !private ["Ps7CVarArg", "persistentStoreCoordinator"]
+- !private ["Ps7CVarArg", "popToRootViewController"]
+- !private ["Ps7CVarArg", "prePopulateStatuses"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "selectedIndex"]
+- !private ["Ps7CVarArg", "set"]
+- !private ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "startUpdatingLocation"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "synchronize"]
+- !private ["Ps7CVarArg", "urls"]
+- !private ["Ps7CVarArg", "viewControllers"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps28CustomDebugStringConvertible", "Analytics"]
+- !private ["Ps28CustomDebugStringConvertible", "Appsee"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "FileManager"]
+- !private ["Ps28CustomDebugStringConvertible", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps28CustomDebugStringConvertible", "NSManagedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "NSManagedObjectModel"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps28CustomDebugStringConvertible", "NSPersistentStoreCoordinator"]
+- !private ["Ps28CustomDebugStringConvertible", "NSSQLiteStoreType"]
+- !private ["Ps28CustomDebugStringConvertible", "UserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "_managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "_managedObjectModel"]
+- !private ["Ps28CustomDebugStringConvertible", "_persistentStoreCoordinator"]
+- !private ["Ps28CustomDebugStringConvertible", "addPersistentStore"]
+- !private ["Ps28CustomDebugStringConvertible", "addressBookRequestAccess"]
+- !private ["Ps28CustomDebugStringConvertible", "appHasOpenedBefore"]
+- !private ["Ps28CustomDebugStringConvertible", "appendingPathComponent"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "applicationDocumentsDirectory"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "checkAndSetFirstOpen"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "currentLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "desiredAccuracy"]
+- !private ["Ps28CustomDebugStringConvertible", "distanceFilter"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initLocationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "kABAuthorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps28CustomDebugStringConvertible", "kAppSeeAppKey"]
+- !private ["Ps28CustomDebugStringConvertible", "kCLLocationAccuracyKilometer"]
+- !private ["Ps28CustomDebugStringConvertible", "kFirstOpen"]
+- !private ["Ps28CustomDebugStringConvertible", "kSegmentWriteKey"]
+- !private ["Ps28CustomDebugStringConvertible", "kStatuses"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- ["Ps28CustomDebugStringConvertible", "locationManager"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps28CustomDebugStringConvertible", "managedObjectModel"]
+- !private ["Ps28CustomDebugStringConvertible", "mergedModel"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "persistentStoreCoordinator"]
+- !private ["Ps28CustomDebugStringConvertible", "popToRootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "prePopulateStatuses"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "selectedIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "set"]
+- !private ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "startUpdatingLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "synchronize"]
+- !private ["Ps28CustomDebugStringConvertible", "urls"]
+- !private ["Ps28CustomDebugStringConvertible", "viewControllers"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "appendingPathComponent"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "addPersistentStore"]
+- !private ["Ps17CustomReflectable", "coordinate"]
+- !private ["Ps17CustomReflectable", "desiredAccuracy"]
+- !private ["Ps17CustomReflectable", "distanceFilter"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps17CustomReflectable", "persistentStoreCoordinator"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps23CustomStringConvertible", "Analytics"]
+- !private ["Ps23CustomStringConvertible", "Appsee"]
+- !private ["Ps23CustomStringConvertible", "CLLocationManager"]
+- !private ["Ps23CustomStringConvertible", "FileManager"]
+- !private ["Ps23CustomStringConvertible", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps23CustomStringConvertible", "NSManagedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "NSManagedObjectModel"]
+- !private ["Ps23CustomStringConvertible", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps23CustomStringConvertible", "NSPersistentStoreCoordinator"]
+- !private ["Ps23CustomStringConvertible", "NSSQLiteStoreType"]
+- !private ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_managedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "_managedObjectModel"]
+- !private ["Ps23CustomStringConvertible", "_persistentStoreCoordinator"]
+- !private ["Ps23CustomStringConvertible", "addPersistentStore"]
+- !private ["Ps23CustomStringConvertible", "addressBookRequestAccess"]
+- !private ["Ps23CustomStringConvertible", "appHasOpenedBefore"]
+- !private ["Ps23CustomStringConvertible", "appendingPathComponent"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "applicationDocumentsDirectory"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "checkAndSetFirstOpen"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps23CustomStringConvertible", "currentLocation"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "desiredAccuracy"]
+- !private ["Ps23CustomStringConvertible", "distanceFilter"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initLocationManager"]
+- !private ["Ps23CustomStringConvertible", "kABAuthorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps23CustomStringConvertible", "kAppSeeAppKey"]
+- !private ["Ps23CustomStringConvertible", "kCLLocationAccuracyKilometer"]
+- !private ["Ps23CustomStringConvertible", "kFirstOpen"]
+- !private ["Ps23CustomStringConvertible", "kSegmentWriteKey"]
+- !private ["Ps23CustomStringConvertible", "kStatuses"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- ["Ps23CustomStringConvertible", "locationManager"]
+- ["Ps23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps23CustomStringConvertible", "managedObjectModel"]
+- !private ["Ps23CustomStringConvertible", "mergedModel"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "persistentStoreCoordinator"]
+- !private ["Ps23CustomStringConvertible", "popToRootViewController"]
+- !private ["Ps23CustomStringConvertible", "prePopulateStatuses"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "selectedIndex"]
+- !private ["Ps23CustomStringConvertible", "set"]
+- !private ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "startUpdatingLocation"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "synchronize"]
+- !private ["Ps23CustomStringConvertible", "urls"]
+- !private ["Ps23CustomStringConvertible", "viewControllers"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps9Equatable", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps9Equatable", "Analytics"]
+- !private ["Ps9Equatable", "Appsee"]
+- !private ["Ps9Equatable", "CLLocationManager"]
+- !private ["Ps9Equatable", "FileManager"]
+- !private ["Ps9Equatable", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps9Equatable", "NSManagedObjectContext"]
+- !private ["Ps9Equatable", "NSManagedObjectModel"]
+- !private ["Ps9Equatable", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps9Equatable", "NSPersistentStoreCoordinator"]
+- !private ["Ps9Equatable", "NSSQLiteStoreType"]
+- !private ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_managedObjectContext"]
+- !private ["Ps9Equatable", "_managedObjectModel"]
+- !private ["Ps9Equatable", "_persistentStoreCoordinator"]
+- !private ["Ps9Equatable", "addPersistentStore"]
+- !private ["Ps9Equatable", "addressBookRequestAccess"]
+- !private ["Ps9Equatable", "appHasOpenedBefore"]
+- !private ["Ps9Equatable", "appendingPathComponent"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "applicationDocumentsDirectory"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "checkAndSetFirstOpen"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps9Equatable", "currentLocation"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "desiredAccuracy"]
+- !private ["Ps9Equatable", "distanceFilter"]
+- !private ["Ps9Equatable", "documentDirectory"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initLocationManager"]
+- !private ["Ps9Equatable", "kABAuthorizationStatus"]
+- !private ["Ps9Equatable", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps9Equatable", "kAppSeeAppKey"]
+- !private ["Ps9Equatable", "kCLLocationAccuracyKilometer"]
+- !private ["Ps9Equatable", "kFirstOpen"]
+- !private ["Ps9Equatable", "kSegmentWriteKey"]
+- !private ["Ps9Equatable", "kStatuses"]
+- !private ["Ps9Equatable", "location"]
+- ["Ps9Equatable", "locationManager"]
+- ["Ps9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9Equatable", "managedObjectModel"]
+- !private ["Ps9Equatable", "mergedModel"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "persistentStoreCoordinator"]
+- !private ["Ps9Equatable", "popToRootViewController"]
+- !private ["Ps9Equatable", "prePopulateStatuses"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "selectedIndex"]
+- !private ["Ps9Equatable", "set"]
+- !private ["Ps9Equatable", "standard"]
+- !private ["Ps9Equatable", "startUpdatingLocation"]
+- !private ["Ps9Equatable", "synchronize"]
+- !private ["Ps9Equatable", "urls"]
+- !private ["Ps9Equatable", "userDomainMask"]
+- !private ["Ps9Equatable", "viewControllers"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "userInfo"]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "userDomainMask"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "addPersistentStore"]
+- !private ["Ps23ExpressibleByNilLiteral", "coordinate"]
+- !private ["Ps23ExpressibleByNilLiteral", "desiredAccuracy"]
+- !private ["Ps23ExpressibleByNilLiteral", "distanceFilter"]
+- !private ["Ps23ExpressibleByNilLiteral", "persistentStoreCoordinator"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo11FileManager", "default"]
+- !private ["CSo11FileManager", "urls"]
+- !private ["Ps8Hashable", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps8Hashable", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps8Hashable", "Analytics"]
+- !private ["Ps8Hashable", "Appsee"]
+- !private ["Ps8Hashable", "CLLocationManager"]
+- !private ["Ps8Hashable", "FileManager"]
+- !private ["Ps8Hashable", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps8Hashable", "NSManagedObjectContext"]
+- !private ["Ps8Hashable", "NSManagedObjectModel"]
+- !private ["Ps8Hashable", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps8Hashable", "NSPersistentStoreCoordinator"]
+- !private ["Ps8Hashable", "NSSQLiteStoreType"]
+- !private ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_managedObjectContext"]
+- !private ["Ps8Hashable", "_managedObjectModel"]
+- !private ["Ps8Hashable", "_persistentStoreCoordinator"]
+- !private ["Ps8Hashable", "addPersistentStore"]
+- !private ["Ps8Hashable", "addressBookRequestAccess"]
+- !private ["Ps8Hashable", "appHasOpenedBefore"]
+- !private ["Ps8Hashable", "appendingPathComponent"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "applicationDocumentsDirectory"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "checkAndSetFirstOpen"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps8Hashable", "currentLocation"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "desiredAccuracy"]
+- !private ["Ps8Hashable", "distanceFilter"]
+- !private ["Ps8Hashable", "documentDirectory"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initLocationManager"]
+- !private ["Ps8Hashable", "kABAuthorizationStatus"]
+- !private ["Ps8Hashable", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps8Hashable", "kAppSeeAppKey"]
+- !private ["Ps8Hashable", "kCLLocationAccuracyKilometer"]
+- !private ["Ps8Hashable", "kFirstOpen"]
+- !private ["Ps8Hashable", "kSegmentWriteKey"]
+- !private ["Ps8Hashable", "kStatuses"]
+- !private ["Ps8Hashable", "location"]
+- ["Ps8Hashable", "locationManager"]
+- ["Ps8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps8Hashable", "managedObjectModel"]
+- !private ["Ps8Hashable", "mergedModel"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "persistentStoreCoordinator"]
+- !private ["Ps8Hashable", "popToRootViewController"]
+- !private ["Ps8Hashable", "prePopulateStatuses"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "selectedIndex"]
+- !private ["Ps8Hashable", "set"]
+- !private ["Ps8Hashable", "standard"]
+- !private ["Ps8Hashable", "startUpdatingLocation"]
+- !private ["Ps8Hashable", "synchronize"]
+- !private ["Ps8Hashable", "urls"]
+- !private ["Ps8Hashable", "viewControllers"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "coordinate"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "mergedModel"]
+- !private ["PSo8NSCoding", "persistentStoreCoordinator"]
+- !private ["PSo8NSCoding", "popToRootViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "selectedIndex"]
+- !private ["PSo8NSCoding", "viewControllers"]
+- !private ["PSo9NSCopying", "coordinate"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "mergedModel"]
+- !private ["PSo26NSExtensionRequestHandling", "popToRootViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "selectedIndex"]
+- !private ["PSo26NSExtensionRequestHandling", "viewControllers"]
+- !private ["PSo17NSFastEnumeration", "mergedModel"]
+- !private ["PSo9NSLocking", "addPersistentStore"]
+- !private ["PSo9NSLocking", "init"]
+- !private ["PSo9NSLocking", "persistentStoreCoordinator"]
+- !private ["CSo22NSManagedObjectContext", "init"]
+- !private ["CSo22NSManagedObjectContext", "persistentStoreCoordinator"]
+- !private ["CSo20NSManagedObjectModel", "mergedModel"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "ABAddressBookGetAuthorizationStatus"]
+- !private ["CSo8NSObject", "ABAddressBookRef"]
+- !private ["CSo8NSObject", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["CSo8NSObject", "Analytics"]
+- !private ["CSo8NSObject", "AnyHashable"]
+- !private ["CSo8NSObject", "Appsee"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CFError"]
+- ["CSo8NSObject", "CLLocation"]
+- ["CSo8NSObject", "CLLocationManager"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "FileManager"]
+- !private ["CSo8NSObject", "NSInferMappingModelAutomaticallyOption"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "NSManagedObjectModel"]
+- !private ["CSo8NSObject", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["CSo8NSObject", "NSPersistentStoreCoordinator"]
+- !private ["CSo8NSObject", "NSSQLiteStoreType"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- !private ["CSo8NSObject", "UITabBarController"]
+- !private ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "UserDefaults"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "_managedObjectContext"]
+- ["CSo8NSObject", "_managedObjectModel"]
+- ["CSo8NSObject", "_persistentStoreCoordinator"]
+- !private ["CSo8NSObject", "addPersistentStore"]
+- ["CSo8NSObject", "addressBookRequestAccess"]
+- ["CSo8NSObject", "appHasOpenedBefore"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationDocumentsDirectory"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "checkAndSetFirstOpen"]
+- !private ["CSo8NSObject", "coordinate"]
+- ["CSo8NSObject", "currentLocation"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "desiredAccuracy"]
+- !private ["CSo8NSObject", "distanceFilter"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initLocationManager"]
+- !private ["CSo8NSObject", "kABAuthorizationStatus"]
+- !private ["CSo8NSObject", "kABAuthorizationStatusNotDetermined"]
+- !private ["CSo8NSObject", "kAppSeeAppKey"]
+- !private ["CSo8NSObject", "kCLLocationAccuracyKilometer"]
+- !private ["CSo8NSObject", "kFirstOpen"]
+- !private ["CSo8NSObject", "kSegmentWriteKey"]
+- !private ["CSo8NSObject", "kStatuses"]
+- !private ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo8NSObject", "managedObjectContext"]
+- ["CSo8NSObject", "managedObjectModel"]
+- !private ["CSo8NSObject", "mergedModel"]
+- !private ["CSo8NSObject", "object"]
+- ["CSo8NSObject", "persistentStoreCoordinator"]
+- !private ["CSo8NSObject", "popToRootViewController"]
+- ["CSo8NSObject", "prePopulateStatuses"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "selectedIndex"]
+- !private ["CSo8NSObject", "set"]
+- !private ["CSo8NSObject", "standard"]
+- !private ["CSo8NSObject", "startUpdatingLocation"]
+- !private ["CSo8NSObject", "synchronize"]
+- !private ["CSo8NSObject", "urls"]
+- !private ["CSo8NSObject", "viewControllers"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "ABAddressBookGetAuthorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["PSo16NSObjectProtocol", "Analytics"]
+- !private ["PSo16NSObjectProtocol", "Appsee"]
+- !private ["PSo16NSObjectProtocol", "CLLocationManager"]
+- !private ["PSo16NSObjectProtocol", "FileManager"]
+- !private ["PSo16NSObjectProtocol", "NSInferMappingModelAutomaticallyOption"]
+- !private ["PSo16NSObjectProtocol", "NSManagedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "NSManagedObjectModel"]
+- !private ["PSo16NSObjectProtocol", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["PSo16NSObjectProtocol", "NSPersistentStoreCoordinator"]
+- !private ["PSo16NSObjectProtocol", "NSSQLiteStoreType"]
+- !private ["PSo16NSObjectProtocol", "UserDefaults"]
+- !private ["PSo16NSObjectProtocol", "_managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "_managedObjectModel"]
+- !private ["PSo16NSObjectProtocol", "_persistentStoreCoordinator"]
+- !private ["PSo16NSObjectProtocol", "addPersistentStore"]
+- !private ["PSo16NSObjectProtocol", "addressBookRequestAccess"]
+- !private ["PSo16NSObjectProtocol", "appHasOpenedBefore"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "applicationDocumentsDirectory"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "checkAndSetFirstOpen"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "currentLocation"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "desiredAccuracy"]
+- !private ["PSo16NSObjectProtocol", "distanceFilter"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initLocationManager"]
+- !private ["PSo16NSObjectProtocol", "kABAuthorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "kABAuthorizationStatusNotDetermined"]
+- !private ["PSo16NSObjectProtocol", "kAppSeeAppKey"]
+- !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyKilometer"]
+- !private ["PSo16NSObjectProtocol", "kFirstOpen"]
+- !private ["PSo16NSObjectProtocol", "kSegmentWriteKey"]
+- !private ["PSo16NSObjectProtocol", "kStatuses"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo16NSObjectProtocol", "managedObjectModel"]
+- !private ["PSo16NSObjectProtocol", "mergedModel"]
+- !private ["PSo16NSObjectProtocol", "object"]
+- !private ["PSo16NSObjectProtocol", "persistentStoreCoordinator"]
+- !private ["PSo16NSObjectProtocol", "popToRootViewController"]
+- !private ["PSo16NSObjectProtocol", "prePopulateStatuses"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "selectedIndex"]
+- !private ["PSo16NSObjectProtocol", "set"]
+- !private ["PSo16NSObjectProtocol", "standard"]
+- !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
+- !private ["PSo16NSObjectProtocol", "synchronize"]
+- !private ["PSo16NSObjectProtocol", "urls"]
+- !private ["PSo16NSObjectProtocol", "viewControllers"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo28NSPersistentStoreCoordinator", "addPersistentStore"]
+- !private ["CSo28NSPersistentStoreCoordinator", "init"]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "userDomainMask"]
+- !private ["Sq", "addPersistentStore"]
+- !private ["Sq", "coordinate"]
+- !private ["Sq", "desiredAccuracy"]
+- !private ["Sq", "distanceFilter"]
+- !private ["Sq", "persistentStoreCoordinator"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "documentDirectory"]
+- !private ["Ps16RawRepresentable", "userDomainMask"]
+- !private ["P10Foundation20ReferenceConvertible", "appendingPathComponent"]
+- !private ["OCSo11FileManager19SearchPathDirectory", "documentDirectory"]
+- !private ["VCSo11FileManager20SearchPathDomainMask", "userDomainMask"]
+- !private ["Ps8Sequence", "last"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "userDomainMask"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "popToRootViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "selectedIndex"]
+- !private ["PSo21UIAppearanceContainer", "viewControllers"]
+- !private ["PSo21UIApplicationDelegate", "ABAddressBookGetAuthorizationStatus"]
+- !private ["PSo21UIApplicationDelegate", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["PSo21UIApplicationDelegate", "Analytics"]
+- !private ["PSo21UIApplicationDelegate", "Appsee"]
+- !private ["PSo21UIApplicationDelegate", "CLLocationManager"]
+- !private ["PSo21UIApplicationDelegate", "FileManager"]
+- !private ["PSo21UIApplicationDelegate", "NSInferMappingModelAutomaticallyOption"]
+- !private ["PSo21UIApplicationDelegate", "NSManagedObjectContext"]
+- !private ["PSo21UIApplicationDelegate", "NSManagedObjectModel"]
+- !private ["PSo21UIApplicationDelegate", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["PSo21UIApplicationDelegate", "NSPersistentStoreCoordinator"]
+- !private ["PSo21UIApplicationDelegate", "NSSQLiteStoreType"]
+- !private ["PSo21UIApplicationDelegate", "UserDefaults"]
+- !private ["PSo21UIApplicationDelegate", "_managedObjectContext"]
+- !private ["PSo21UIApplicationDelegate", "_managedObjectModel"]
+- !private ["PSo21UIApplicationDelegate", "_persistentStoreCoordinator"]
+- !private ["PSo21UIApplicationDelegate", "addressBookRequestAccess"]
+- !private ["PSo21UIApplicationDelegate", "appHasOpenedBefore"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- !private ["PSo21UIApplicationDelegate", "applicationDocumentsDirectory"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "checkAndSetFirstOpen"]
+- !private ["PSo21UIApplicationDelegate", "currentLocation"]
+- !private ["PSo21UIApplicationDelegate", "initLocationManager"]
+- !private ["PSo21UIApplicationDelegate", "kABAuthorizationStatus"]
+- !private ["PSo21UIApplicationDelegate", "kABAuthorizationStatusNotDetermined"]
+- !private ["PSo21UIApplicationDelegate", "kAppSeeAppKey"]
+- !private ["PSo21UIApplicationDelegate", "kCLLocationAccuracyKilometer"]
+- !private ["PSo21UIApplicationDelegate", "kFirstOpen"]
+- !private ["PSo21UIApplicationDelegate", "kSegmentWriteKey"]
+- !private ["PSo21UIApplicationDelegate", "kStatuses"]
+- ["PSo21UIApplicationDelegate", "locationManager"]
+- ["PSo21UIApplicationDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo21UIApplicationDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo21UIApplicationDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo21UIApplicationDelegate", "managedObjectModel"]
+- !private ["PSo21UIApplicationDelegate", "persistentStoreCoordinator"]
+- !private ["PSo21UIApplicationDelegate", "prePopulateStatuses"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "popToRootViewController"]
+- !private ["PSo18UIContentContainer", "selectedIndex"]
+- !private ["PSo18UIContentContainer", "viewControllers"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "popToRootViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "selectedIndex"]
+- !private ["PSo18UIFocusEnvironment", "viewControllers"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- !private ["CSo22UINavigationController", "popToRootViewController"]
+- !private ["CSo11UIResponder", "ABAddressBookGetAuthorizationStatus"]
+- !private ["CSo11UIResponder", "ABAddressBookRef"]
+- !private ["CSo11UIResponder", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["CSo11UIResponder", "Analytics"]
+- !private ["CSo11UIResponder", "AnyHashable"]
+- !private ["CSo11UIResponder", "Appsee"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CFError"]
+- ["CSo11UIResponder", "CLLocation"]
+- ["CSo11UIResponder", "CLLocationManager"]
+- ["CSo11UIResponder", "Error"]
+- !private ["CSo11UIResponder", "FileManager"]
+- !private ["CSo11UIResponder", "NSInferMappingModelAutomaticallyOption"]
+- ["CSo11UIResponder", "NSManagedObjectContext"]
+- ["CSo11UIResponder", "NSManagedObjectModel"]
+- !private ["CSo11UIResponder", "NSMigratePersistentStoresAutomaticallyOption"]
+- ["CSo11UIResponder", "NSPersistentStoreCoordinator"]
+- !private ["CSo11UIResponder", "NSSQLiteStoreType"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo11UIResponder", "UINavigationController"]
+- !private ["CSo11UIResponder", "UITabBarController"]
+- !private ["CSo11UIResponder", "UIViewController"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "UserDefaults"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "_managedObjectContext"]
+- ["CSo11UIResponder", "_managedObjectModel"]
+- ["CSo11UIResponder", "_persistentStoreCoordinator"]
+- ["CSo11UIResponder", "addressBookRequestAccess"]
+- ["CSo11UIResponder", "appHasOpenedBefore"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationDocumentsDirectory"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "checkAndSetFirstOpen"]
+- ["CSo11UIResponder", "currentLocation"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initLocationManager"]
+- !private ["CSo11UIResponder", "kABAuthorizationStatus"]
+- !private ["CSo11UIResponder", "kABAuthorizationStatusNotDetermined"]
+- !private ["CSo11UIResponder", "kAppSeeAppKey"]
+- !private ["CSo11UIResponder", "kCLLocationAccuracyKilometer"]
+- !private ["CSo11UIResponder", "kFirstOpen"]
+- !private ["CSo11UIResponder", "kSegmentWriteKey"]
+- !private ["CSo11UIResponder", "kStatuses"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo11UIResponder", "managedObjectContext"]
+- ["CSo11UIResponder", "managedObjectModel"]
+- ["CSo11UIResponder", "persistentStoreCoordinator"]
+- !private ["CSo11UIResponder", "popToRootViewController"]
+- ["CSo11UIResponder", "prePopulateStatuses"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "selectedIndex"]
+- !private ["CSo11UIResponder", "viewControllers"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "ABAddressBookGetAuthorizationStatus"]
+- !private ["PSo30UIResponderStandardEditActions", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["PSo30UIResponderStandardEditActions", "Analytics"]
+- !private ["PSo30UIResponderStandardEditActions", "Appsee"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "FileManager"]
+- !private ["PSo30UIResponderStandardEditActions", "NSInferMappingModelAutomaticallyOption"]
+- !private ["PSo30UIResponderStandardEditActions", "NSManagedObjectContext"]
+- !private ["PSo30UIResponderStandardEditActions", "NSManagedObjectModel"]
+- !private ["PSo30UIResponderStandardEditActions", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["PSo30UIResponderStandardEditActions", "NSPersistentStoreCoordinator"]
+- !private ["PSo30UIResponderStandardEditActions", "NSSQLiteStoreType"]
+- !private ["PSo30UIResponderStandardEditActions", "UserDefaults"]
+- !private ["PSo30UIResponderStandardEditActions", "_managedObjectContext"]
+- !private ["PSo30UIResponderStandardEditActions", "_managedObjectModel"]
+- !private ["PSo30UIResponderStandardEditActions", "_persistentStoreCoordinator"]
+- !private ["PSo30UIResponderStandardEditActions", "addressBookRequestAccess"]
+- !private ["PSo30UIResponderStandardEditActions", "appHasOpenedBefore"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "applicationDocumentsDirectory"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "checkAndSetFirstOpen"]
+- !private ["PSo30UIResponderStandardEditActions", "currentLocation"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initLocationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "kABAuthorizationStatus"]
+- !private ["PSo30UIResponderStandardEditActions", "kABAuthorizationStatusNotDetermined"]
+- !private ["PSo30UIResponderStandardEditActions", "kAppSeeAppKey"]
+- !private ["PSo30UIResponderStandardEditActions", "kCLLocationAccuracyKilometer"]
+- !private ["PSo30UIResponderStandardEditActions", "kFirstOpen"]
+- !private ["PSo30UIResponderStandardEditActions", "kSegmentWriteKey"]
+- !private ["PSo30UIResponderStandardEditActions", "kStatuses"]
+- ["PSo30UIResponderStandardEditActions", "locationManager"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerDidPauseLocationUpdates"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerDidResumeLocationUpdates"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo30UIResponderStandardEditActions", "managedObjectModel"]
+- !private ["PSo30UIResponderStandardEditActions", "persistentStoreCoordinator"]
+- !private ["PSo30UIResponderStandardEditActions", "popToRootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "prePopulateStatuses"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "selectedIndex"]
+- !private ["PSo30UIResponderStandardEditActions", "viewControllers"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "popToRootViewController"]
+- !private ["PSo16UIStateRestoring", "selectedIndex"]
+- !private ["PSo16UIStateRestoring", "viewControllers"]
+- !private ["CSo18UITabBarController", "selectedIndex"]
+- !private ["CSo18UITabBarController", "viewControllers"]
+- !private ["PSo16UITabBarDelegate", "selectedIndex"]
+- !private ["PSo16UITabBarDelegate", "viewControllers"]
+- !private ["PSo18UITraitEnvironment", "popToRootViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "selectedIndex"]
+- !private ["PSo18UITraitEnvironment", "viewControllers"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "popToRootViewController"]
+- !private ["CSo16UIViewController", "selectedIndex"]
+- !private ["CSo16UIViewController", "viewControllers"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["V10Foundation3URL", "appendingPathComponent"]
+- !private ["CSo12UserDefaults", "object"]
+- !private ["CSo12UserDefaults", "set"]
+- !private ["CSo12UserDefaults", "standard"]
+- !private ["CSo12UserDefaults", "synchronize"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "last"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "appendingPathComponent"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ABAddressBookGetAuthorizationStatus"]
+- !private ["Ps9_Hashable", "ABAddressBookRequestAccessWithCompletion"]
+- !private ["Ps9_Hashable", "Analytics"]
+- !private ["Ps9_Hashable", "Appsee"]
+- !private ["Ps9_Hashable", "CLLocationManager"]
+- !private ["Ps9_Hashable", "FileManager"]
+- !private ["Ps9_Hashable", "NSInferMappingModelAutomaticallyOption"]
+- !private ["Ps9_Hashable", "NSManagedObjectContext"]
+- !private ["Ps9_Hashable", "NSManagedObjectModel"]
+- !private ["Ps9_Hashable", "NSMigratePersistentStoresAutomaticallyOption"]
+- !private ["Ps9_Hashable", "NSPersistentStoreCoordinator"]
+- !private ["Ps9_Hashable", "NSSQLiteStoreType"]
+- !private ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_managedObjectContext"]
+- !private ["Ps9_Hashable", "_managedObjectModel"]
+- !private ["Ps9_Hashable", "_persistentStoreCoordinator"]
+- !private ["Ps9_Hashable", "addPersistentStore"]
+- !private ["Ps9_Hashable", "addressBookRequestAccess"]
+- !private ["Ps9_Hashable", "appHasOpenedBefore"]
+- !private ["Ps9_Hashable", "appendingPathComponent"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "applicationDocumentsDirectory"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "checkAndSetFirstOpen"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps9_Hashable", "currentLocation"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "desiredAccuracy"]
+- !private ["Ps9_Hashable", "distanceFilter"]
+- !private ["Ps9_Hashable", "documentDirectory"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initLocationManager"]
+- !private ["Ps9_Hashable", "kABAuthorizationStatus"]
+- !private ["Ps9_Hashable", "kABAuthorizationStatusNotDetermined"]
+- !private ["Ps9_Hashable", "kAppSeeAppKey"]
+- !private ["Ps9_Hashable", "kCLLocationAccuracyKilometer"]
+- !private ["Ps9_Hashable", "kFirstOpen"]
+- !private ["Ps9_Hashable", "kSegmentWriteKey"]
+- !private ["Ps9_Hashable", "kStatuses"]
+- !private ["Ps9_Hashable", "location"]
+- ["Ps9_Hashable", "locationManager"]
+- ["Ps9_Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9_Hashable", "managedObjectModel"]
+- !private ["Ps9_Hashable", "mergedModel"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "persistentStoreCoordinator"]
+- !private ["Ps9_Hashable", "popToRootViewController"]
+- !private ["Ps9_Hashable", "prePopulateStatuses"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "selectedIndex"]
+- !private ["Ps9_Hashable", "set"]
+- !private ["Ps9_Hashable", "standard"]
+- !private ["Ps9_Hashable", "startUpdatingLocation"]
+- !private ["Ps9_Hashable", "synchronize"]
+- !private ["Ps9_Hashable", "urls"]
+- !private ["Ps9_Hashable", "viewControllers"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "last"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "last"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "last"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "addPersistentStore"]
+- !private ["Ps21_ObjectiveCBridgeable", "appendingPathComponent"]
+- !private ["Ps21_ObjectiveCBridgeable", "coordinate"]
+- !private ["Ps21_ObjectiveCBridgeable", "desiredAccuracy"]
+- !private ["Ps21_ObjectiveCBridgeable", "distanceFilter"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "last"]
+- !private ["Ps21_ObjectiveCBridgeable", "latitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "longitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "persistentStoreCoordinator"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "last"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "last"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C16FallahCodeSample11AppDelegate"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "CSo10CLLocation"
+- !private "VSC22CLLocationCoordinate2D"
+- !private "CSo17CLLocationManager"
+- "PSo25CLLocationManagerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo11FileManager"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo9NSLocking"
+- !private "CSo22NSManagedObjectContext"
+- !private "CSo20NSManagedObjectModel"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo28NSPersistentStoreCoordinator"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "OCSo11FileManager19SearchPathDirectory"
+- !private "VCSo11FileManager20SearchPathDomainMask"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "CSo18UITabBarController"
+- !private "PSo16UITabBarDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "V10Foundation3URL"
+- !private "CSo12UserDefaults"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout+Internal.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GooglePlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayoutDefines.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSLayoutConstraint+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/ALView+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSArray+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Modules/module.modulemap"
+interface-hash: "cc53d828f37ae52356a348eb7dcc2c4e"

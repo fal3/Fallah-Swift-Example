@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo13DispatchQueue", ""]
+- ["CSo13DispatchQueue", "promise"]
+- ["CSo13DispatchQueue", "promise"]
+- ["CSo13DispatchQueue", "default"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "DispatchGroup"
+- "DispatchQoS"
+- "DispatchQueue"
+- "DispatchWorkItemFlags"
+- "Promise"
+- !private "Resolution"
+- !private "StringLiteralType"
+- !private "__PMKDefaultDispatchQueue"
+- !private "__PMKSetDefaultDispatchQueue"
+- !private "fatalError"
+depends-member:
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "Resolution"]
+- !private ["Ps9AnyObject", "__PMKDefaultDispatchQueue"]
+- !private ["Ps9AnyObject", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps7CVarArg", "Promise"]
+- !private ["Ps7CVarArg", "Resolution"]
+- !private ["Ps7CVarArg", "__PMKDefaultDispatchQueue"]
+- !private ["Ps7CVarArg", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "Promise"]
+- !private ["Ps28CustomDebugStringConvertible", "Resolution"]
+- !private ["Ps28CustomDebugStringConvertible", "__PMKDefaultDispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Promise"]
+- !private ["Ps23CustomStringConvertible", "Resolution"]
+- !private ["Ps23CustomStringConvertible", "__PMKDefaultDispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "fulfilled"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["CSo14DispatchObject", "DispatchGroup"]
+- ["CSo14DispatchObject", "DispatchQoS"]
+- ["CSo14DispatchObject", "DispatchQueue"]
+- ["CSo14DispatchObject", "DispatchWorkItemFlags"]
+- ["CSo14DispatchObject", "Promise"]
+- !private ["CSo14DispatchObject", "Resolution"]
+- !private ["CSo14DispatchObject", "__PMKDefaultDispatchQueue"]
+- !private ["CSo14DispatchObject", "__PMKSetDefaultDispatchQueue"]
+- !private ["CSo14DispatchObject", "async"]
+- ["CSo14DispatchObject", "default"]
+- !private ["CSo14DispatchObject", "fatalError"]
+- ["CSo14DispatchObject", "promise"]
+- !private ["V8Dispatch11DispatchQoS", "default"]
+- ["CSo13DispatchQueue", "DispatchGroup"]
+- ["CSo13DispatchQueue", "DispatchQoS"]
+- ["CSo13DispatchQueue", "DispatchQueue"]
+- ["CSo13DispatchQueue", "DispatchWorkItemFlags"]
+- ["CSo13DispatchQueue", "Promise"]
+- !private ["CSo13DispatchQueue", "Resolution"]
+- !private ["CSo13DispatchQueue", "__PMKDefaultDispatchQueue"]
+- !private ["CSo13DispatchQueue", "__PMKSetDefaultDispatchQueue"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "default"]
+- !private ["CSo13DispatchQueue", "fatalError"]
+- ["CSo13DispatchQueue", "promise"]
+- !private ["Ps9Equatable", "Promise"]
+- !private ["Ps9Equatable", "Resolution"]
+- !private ["Ps9Equatable", "__PMKDefaultDispatchQueue"]
+- !private ["Ps9Equatable", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Promise"]
+- !private ["Ps8Hashable", "Resolution"]
+- !private ["Ps8Hashable", "__PMKDefaultDispatchQueue"]
+- !private ["Ps8Hashable", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["CSo8NSObject", "DispatchGroup"]
+- ["CSo8NSObject", "DispatchQoS"]
+- ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "DispatchWorkItemFlags"]
+- ["CSo8NSObject", "Promise"]
+- !private ["CSo8NSObject", "Resolution"]
+- !private ["CSo8NSObject", "__PMKDefaultDispatchQueue"]
+- !private ["CSo8NSObject", "__PMKSetDefaultDispatchQueue"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "promise"]
+- !private ["PSo16NSObjectProtocol", "Promise"]
+- !private ["PSo16NSObjectProtocol", "Resolution"]
+- !private ["PSo16NSObjectProtocol", "__PMKDefaultDispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "__PMKSetDefaultDispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["CSo9OS_object", "DispatchGroup"]
+- ["CSo9OS_object", "DispatchQoS"]
+- ["CSo9OS_object", "DispatchQueue"]
+- ["CSo9OS_object", "DispatchWorkItemFlags"]
+- ["CSo9OS_object", "Promise"]
+- !private ["CSo9OS_object", "Resolution"]
+- !private ["CSo9OS_object", "__PMKDefaultDispatchQueue"]
+- !private ["CSo9OS_object", "__PMKSetDefaultDispatchQueue"]
+- !private ["CSo9OS_object", "async"]
+- ["CSo9OS_object", "default"]
+- !private ["CSo9OS_object", "fatalError"]
+- ["CSo9OS_object", "promise"]
+- !private ["C10PromiseKit7Promise", "init"]
+- !private ["O10PromiseKit10Resolution", "fulfilled"]
+- !private ["O10PromiseKit10Resolution", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "Promise"]
+- !private ["Ps9_Hashable", "Resolution"]
+- !private ["Ps9_Hashable", "__PMKDefaultDispatchQueue"]
+- !private ["Ps9_Hashable", "__PMKSetDefaultDispatchQueue"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "fatalError"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- !private "V8Dispatch11DispatchQoS"
+- "CSo13DispatchQueue"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "CSo9OS_object"
+- !private "C10PromiseKit7Promise"
+- !private "O10PromiseKit10Resolution"
+- !private "Vs12StaticString"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+interface-hash: "835be5bf734d3099e9990263c06f9ee9"

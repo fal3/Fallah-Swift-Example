@@ -1,0 +1,40 @@
+PODS:
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.3.1):
+    - GoogleMaps (= 2.3.1)
+    - GooglePlaces (= 2.3.1)
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - PromiseKit (4.2.2):
+    - PromiseKit/Foundation (= 4.2.2)
+    - PromiseKit/QuartzCore (= 4.2.2)
+    - PromiseKit/UIKit (= 4.2.2)
+  - PromiseKit/CorePromise (4.2.2)
+  - PromiseKit/Foundation (4.2.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.2):
+    - PromiseKit/CorePromise
+  - PureLayout (3.0.2)
+
+DEPENDENCIES:
+  - GooglePlacePicker
+  - GooglePlaces
+  - PromiseKit
+  - PureLayout
+
+SPEC CHECKSUMS:
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlacePicker: fc3564ac7a2ce314e78e42bfc1e16822ad1e5488
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  PromiseKit: 00e8886881f151c7e573d06b437915b0bb2970ec
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+
+PODFILE CHECKSUM: 43d98cfbbb34f51e9d93941c6e6f105b0f4e60d0
+
+COCOAPODS: 1.2.1

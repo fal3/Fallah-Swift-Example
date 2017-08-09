@@ -1,0 +1,334 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Promise"
+- "firstly"
+- "firstly"
+- "firstly"
+- "firstly"
+- "firstly"
+- "firstly"
+- "firstly"
+- "dispatch_promise"
+- "Result"
+- "PMKJoint"
+provides-nominal:
+- "C10PromiseKit7Promise"
+- "O10PromiseKit6Result"
+- "C10PromiseKit8PMKJoint"
+provides-member:
+- ["C10PromiseKit7Promise", ""]
+- ["O10PromiseKit6Result", ""]
+- ["C10PromiseKit8PMKJoint", ""]
+- ["C10PromiseKit7Promise", "joint"]
+- ["C10PromiseKit7Promise", "join"]
+- ["C10PromiseKit7Promise", "map"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CatchPolicy"
+- "Collection"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "Error"
+- !private "NSLog"
+- !private "PMKError"
+- "PMKJoint"
+- "Promise"
+- "Resolution"
+- "Result"
+- !private "SealedState"
+- "State"
+- "String"
+- !private "StringLiteralType"
+- !private "UnsealedState"
+- "Void"
+- "dispatch_promise"
+- !private "fatalError"
+- "firstly"
+- !private "when"
+- !private "zalgo"
+depends-member:
+- ["Ps9AnyObject", "Collection"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "NSLog"]
+- !private ["Ps9AnyObject", "PMKError"]
+- !private ["Ps9AnyObject", "PMKJoint"]
+- !private ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "Resolution"]
+- !private ["Ps9AnyObject", "Result"]
+- !private ["Ps9AnyObject", "SealedState"]
+- !private ["Ps9AnyObject", "UnsealedState"]
+- !private ["Ps9AnyObject", "always"]
+- !private ["Ps9AnyObject", "catch"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isPending"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "pipe"]
+- !private ["Ps9AnyObject", "resolve"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["Ps9AnyObject", "when"]
+- !private ["Ps9AnyObject", "zalgo"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["OSC11CatchPolicy", "allErrors"]
+- !private ["OSC11CatchPolicy", "allErrorsExceptCancellation"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Collection"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "NSLog"]
+- !private ["Ps23CustomStringConvertible", "PMKError"]
+- !private ["Ps23CustomStringConvertible", "PMKJoint"]
+- !private ["Ps23CustomStringConvertible", "Promise"]
+- !private ["Ps23CustomStringConvertible", "Resolution"]
+- !private ["Ps23CustomStringConvertible", "Result"]
+- !private ["Ps23CustomStringConvertible", "SealedState"]
+- !private ["Ps23CustomStringConvertible", "UnsealedState"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "fulfilled"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isPending"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "rejected"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- !private ["Ps23CustomStringConvertible", "then"]
+- !private ["Ps23CustomStringConvertible", "when"]
+- !private ["Ps23CustomStringConvertible", "zalgo"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["CSo14DispatchObject", "default"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo13DispatchQueue", "default"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allErrors"]
+- !private ["Ps9Equatable", "allErrorsExceptCancellation"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps5Error", "returnedSelf"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allErrors"]
+- !private ["Ps8Hashable", "allErrorsExceptCancellation"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "main"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "default"]
+- !private ["CSo9OS_object", "main"]
+- !private ["O10PromiseKit8PMKError", "deinit"]
+- !private ["O10PromiseKit8PMKError", "returnedSelf"]
+- ["C10PromiseKit8PMKJoint", "Resolution"]
+- ["C10PromiseKit8PMKJoint", "T"]
+- ["C10PromiseKit8PMKJoint", "Void"]
+- ["C10PromiseKit8PMKJoint", "deinit"]
+- ["C10PromiseKit8PMKJoint", "init"]
+- !private ["C10PromiseKit8PMKJoint", "resolve"]
+- ["C10PromiseKit7Promise", "CatchPolicy"]
+- ["C10PromiseKit7Promise", "Collection"]
+- ["C10PromiseKit7Promise", "DispatchQueue"]
+- ["C10PromiseKit7Promise", "Error"]
+- !private ["C10PromiseKit7Promise", "NSLog"]
+- !private ["C10PromiseKit7Promise", "PMKError"]
+- ["C10PromiseKit7Promise", "PMKJoint"]
+- ["C10PromiseKit7Promise", "PendingTuple"]
+- ["C10PromiseKit7Promise", "Promise"]
+- ["C10PromiseKit7Promise", "Resolution"]
+- ["C10PromiseKit7Promise", "Result"]
+- !private ["C10PromiseKit7Promise", "SealedState"]
+- ["C10PromiseKit7Promise", "State"]
+- ["C10PromiseKit7Promise", "String"]
+- ["C10PromiseKit7Promise", "T"]
+- !private ["C10PromiseKit7Promise", "UnsealedState"]
+- ["C10PromiseKit7Promise", "Void"]
+- ["C10PromiseKit7Promise", "always"]
+- ["C10PromiseKit7Promise", "asVoid"]
+- ["C10PromiseKit7Promise", "catch"]
+- ["C10PromiseKit7Promise", "defer"]
+- ["C10PromiseKit7Promise", "deinit"]
+- ["C10PromiseKit7Promise", "description"]
+- ["C10PromiseKit7Promise", "ensure"]
+- ["C10PromiseKit7Promise", "error"]
+- ["C10PromiseKit7Promise", "errorOnQueue"]
+- !private ["C10PromiseKit7Promise", "fatalError"]
+- ["C10PromiseKit7Promise", "finally"]
+- ["C10PromiseKit7Promise", "init"]
+- !private ["C10PromiseKit7Promise", "isPending"]
+- ["C10PromiseKit7Promise", "join"]
+- ["C10PromiseKit7Promise", "joint"]
+- ["C10PromiseKit7Promise", "map"]
+- ["C10PromiseKit7Promise", "onError"]
+- ["C10PromiseKit7Promise", "pending"]
+- ["C10PromiseKit7Promise", "pendingPromise"]
+- ["C10PromiseKit7Promise", "recover"]
+- ["C10PromiseKit7Promise", "report"]
+- ["C10PromiseKit7Promise", "state"]
+- ["C10PromiseKit7Promise", "tap"]
+- ["C10PromiseKit7Promise", "then"]
+- ["C10PromiseKit7Promise", "thenInBackground"]
+- !private ["C10PromiseKit7Promise", "when"]
+- !private ["C10PromiseKit7Promise", "zalgo"]
+- !private ["Ps16RawRepresentable", "allErrors"]
+- !private ["Ps16RawRepresentable", "allErrorsExceptCancellation"]
+- ["O10PromiseKit10Resolution", "fulfilled"]
+- !private ["O10PromiseKit10Resolution", "init"]
+- ["O10PromiseKit10Resolution", "rejected"]
+- ["O10PromiseKit6Result", "Bool"]
+- ["O10PromiseKit6Result", "Error"]
+- ["O10PromiseKit6Result", "Resolution"]
+- ["O10PromiseKit6Result", "T"]
+- ["O10PromiseKit6Result", "boolValue"]
+- ["O10PromiseKit6Result", "fulfilled"]
+- ["O10PromiseKit6Result", "init"]
+- ["O10PromiseKit6Result", "rejected"]
+- !private ["C10PromiseKit11SealedState", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["C10PromiseKit5State", "always"]
+- !private ["C10PromiseKit5State", "catch"]
+- !private ["C10PromiseKit5State", "pipe"]
+- !private ["C10PromiseKit5State", "then"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C10PromiseKit13UnsealedState", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allErrors"]
+- !private ["Ps9_Hashable", "allErrorsExceptCancellation"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "OSC11CatchPolicy"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "O10PromiseKit8PMKError"
+- "C10PromiseKit8PMKJoint"
+- "C10PromiseKit7Promise"
+- !private "Ps16RawRepresentable"
+- "O10PromiseKit10Resolution"
+- "O10PromiseKit6Result"
+- !private "C10PromiseKit11SealedState"
+- !private "Ps8Sequence"
+- !private "C10PromiseKit5State"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "C10PromiseKit13UnsealedState"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+interface-hash: "f33fbadda6a65a379bf2697fc7f1f292"

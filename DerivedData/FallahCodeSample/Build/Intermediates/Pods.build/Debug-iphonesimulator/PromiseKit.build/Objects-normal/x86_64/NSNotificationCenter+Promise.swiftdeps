@@ -1,0 +1,159 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NotificationPromise"
+provides-nominal:
+- "C10PromiseKit19NotificationPromise"
+provides-member:
+- ["CSo18NotificationCenter", ""]
+- ["C10PromiseKit19NotificationPromise", ""]
+- ["CSo18NotificationCenter", "observe"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- !private "Dictionary"
+- "Notification"
+- "NotificationCenter"
+- "NotificationPromise"
+- "Promise"
+- !private "Void"
+depends-member:
+- !private ["Ps9AnyObject", "NotificationPromise"]
+- ["Ps9AnyObject", "Promise"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "always"]
+- !private ["Ps9AnyObject", "go"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "pending"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "then"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "NotificationPromise"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "removeObserver"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationPromise"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "userInfo"]
+- ["Ps17CustomReflectable", "Name"]
+- !private ["Ps17CustomReflectable", "userInfo"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationPromise"]
+- ["Ps23CustomStringConvertible", "Promise"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "always"]
+- !private ["Ps23CustomStringConvertible", "go"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "pending"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["Ps23CustomStringConvertible", "then"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationPromise"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "removeObserver"]
+- !private ["Ps9Equatable", "userInfo"]
+- ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationPromise"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "removeObserver"]
+- !private ["Ps8Hashable", "userInfo"]
+- ["CSo8NSObject", "Notification"]
+- ["CSo8NSObject", "NotificationPromise"]
+- !private ["CSo8NSObject", "addObserver"]
+- ["CSo8NSObject", "observe"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "NotificationPromise"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- ["V10Foundation12Notification", "Name"]
+- !private ["V10Foundation12Notification", "userInfo"]
+- ["CSo18NotificationCenter", "Notification"]
+- ["CSo18NotificationCenter", "NotificationPromise"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- ["CSo18NotificationCenter", "observe"]
+- !private ["CSo18NotificationCenter", "removeObserver"]
+- ["C10PromiseKit19NotificationPromise", "Notification"]
+- !private ["C10PromiseKit19NotificationPromise", "NotificationPromise"]
+- ["C10PromiseKit19NotificationPromise", "Promise"]
+- !private ["C10PromiseKit19NotificationPromise", "Void"]
+- !private ["C10PromiseKit19NotificationPromise", "always"]
+- ["C10PromiseKit19NotificationPromise", "asNotification"]
+- ["C10PromiseKit19NotificationPromise", "deinit"]
+- !private ["C10PromiseKit19NotificationPromise", "go"]
+- ["C10PromiseKit19NotificationPromise", "init"]
+- !private ["C10PromiseKit19NotificationPromise", "pending"]
+- ["C10PromiseKit7Promise", "Notification"]
+- !private ["C10PromiseKit7Promise", "NotificationPromise"]
+- ["C10PromiseKit7Promise", "Promise"]
+- !private ["C10PromiseKit7Promise", "Void"]
+- !private ["C10PromiseKit7Promise", "always"]
+- ["C10PromiseKit7Promise", "asNotification"]
+- ["C10PromiseKit7Promise", "go"]
+- ["C10PromiseKit7Promise", "init"]
+- ["C10PromiseKit7Promise", "pending"]
+- !private ["C10PromiseKit7Promise", "then"]
+- ["C10PromiseKit7Promise", ""]
+- ["P10Foundation20ReferenceConvertible", "Name"]
+- !private ["P10Foundation20ReferenceConvertible", "userInfo"]
+- ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationPromise"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "removeObserver"]
+- !private ["Ps9_Hashable", "userInfo"]
+- ["Ps21_ObjectiveCBridgeable", "Name"]
+- !private ["Ps21_ObjectiveCBridgeable", "userInfo"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "V10Foundation12Notification"
+- "CSo18NotificationCenter"
+- "C10PromiseKit19NotificationPromise"
+- "C10PromiseKit7Promise"
+- "P10Foundation20ReferenceConvertible"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/Target Support Files/PromiseKit/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/Foundation/Sources/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Extensions/UIKit/Sources/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/PromiseKit/Sources/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Intermediates/Pods.build/Debug-iphonesimulator/PromiseKit.build/unextended-module.modulemap"
+interface-hash: "e048385b245b7d3b293ef42c9a6a3cd8"

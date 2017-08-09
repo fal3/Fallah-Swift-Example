@@ -1,0 +1,1232 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HomeViewController"
+provides-nominal:
+- "C16FallahCodeSample18HomeViewController"
+provides-member:
+- ["C16FallahCodeSample18HomeViewController", ""]
+provides-dynamic-lookup:
+- "refresh"
+- "tableView"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "Array"
+- !private "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- !private "CGRect"
+- "CastingPrecedence"
+- "GMSPlacePhotoMetadata"
+- "HomeViewController"
+- "IndexPath"
+- "Int"
+- !private "LocationUtil"
+- "Place"
+- !private "PlacesCell"
+- !private "PlacesUtil"
+- !private "Promise"
+- "Result"
+- !private "StringLiteralType"
+- !private "UIBarButtonItem"
+- !private "UIBarButtonSystemItem"
+- !private "UINavigationBar"
+- !private "UINavigationItem"
+- !private "UIScreen"
+- "UITableView"
+- "UITableViewCell"
+- "UITableViewController"
+- !private "Void"
+- !private "firstly"
+- !private "zip"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "LocationUtil"]
+- !private ["Ps9AnyObject", "Place"]
+- !private ["Ps9AnyObject", "PlacesCell"]
+- !private ["Ps9AnyObject", "PlacesUtil"]
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "UIBarButtonSystemItem"]
+- !private ["Ps9AnyObject", "UINavigationBar"]
+- !private ["Ps9AnyObject", "UINavigationItem"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "catch"]
+- !private ["Ps9AnyObject", "dequeueReusableCell"]
+- !private ["Ps9AnyObject", "didAllowLocation"]
+- !private ["Ps9AnyObject", "fetchPhotosForPlaces"]
+- !private ["Ps9AnyObject", "fetchPlaces"]
+- !private ["Ps9AnyObject", "fetchPlacesAndPhotos"]
+- !private ["Ps9AnyObject", "firstly"]
+- !private ["Ps9AnyObject", "getPermission"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initCell"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "places"]
+- !private ["Ps9AnyObject", "refresh"]
+- !private ["Ps9AnyObject", "register"]
+- !private ["Ps9AnyObject", "reload"]
+- !private ["Ps9AnyObject", "reloadData"]
+- !private ["Ps9AnyObject", "reuseId"]
+- !private ["Ps9AnyObject", "rightBarButtonItem"]
+- !private ["Ps9AnyObject", "setItems"]
+- !private ["Ps9AnyObject", "setNavigationBar"]
+- !private ["Ps9AnyObject", "showAlert"]
+- !private ["Ps9AnyObject", "tableView"]
+- !private ["Ps9AnyObject", "then"]
+- !private ["Ps9AnyObject", "view"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- !private ["Ps9AnyObject", "zip"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "row"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "dequeueReusableCell"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "initCell"]
+- !private ["PSo15CALayerDelegate", "register"]
+- !private ["PSo15CALayerDelegate", "reloadData"]
+- !private ["PSo15CALayerDelegate", "reuseId"]
+- !private ["PSo15CALayerDelegate", "setItems"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "LocationUtil"]
+- !private ["Ps7CVarArg", "Place"]
+- !private ["Ps7CVarArg", "PlacesCell"]
+- !private ["Ps7CVarArg", "PlacesUtil"]
+- !private ["Ps7CVarArg", "UIBarButtonItem"]
+- !private ["Ps7CVarArg", "UIBarButtonSystemItem"]
+- !private ["Ps7CVarArg", "UINavigationBar"]
+- !private ["Ps7CVarArg", "UINavigationItem"]
+- !private ["Ps7CVarArg", "UIScreen"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "dequeueReusableCell"]
+- !private ["Ps7CVarArg", "fetchPlacesAndPhotos"]
+- !private ["Ps7CVarArg", "firstly"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initCell"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "places"]
+- !private ["Ps7CVarArg", "refresh"]
+- !private ["Ps7CVarArg", "register"]
+- !private ["Ps7CVarArg", "reload"]
+- !private ["Ps7CVarArg", "reloadData"]
+- !private ["Ps7CVarArg", "reuseId"]
+- !private ["Ps7CVarArg", "rightBarButtonItem"]
+- !private ["Ps7CVarArg", "setItems"]
+- !private ["Ps7CVarArg", "setNavigationBar"]
+- !private ["Ps7CVarArg", "showAlert"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "tableView"]
+- !private ["Ps7CVarArg", "view"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- !private ["Ps7CVarArg", "zip"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["Ps10Collection", "row"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "LocationUtil"]
+- !private ["Ps28CustomDebugStringConvertible", "Place"]
+- !private ["Ps28CustomDebugStringConvertible", "PlacesCell"]
+- !private ["Ps28CustomDebugStringConvertible", "PlacesUtil"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonSystemItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UINavigationBar"]
+- !private ["Ps28CustomDebugStringConvertible", "UINavigationItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCell"]
+- !private ["Ps28CustomDebugStringConvertible", "fetchPlacesAndPhotos"]
+- !private ["Ps28CustomDebugStringConvertible", "firstly"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initCell"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "places"]
+- !private ["Ps28CustomDebugStringConvertible", "refresh"]
+- !private ["Ps28CustomDebugStringConvertible", "register"]
+- !private ["Ps28CustomDebugStringConvertible", "reload"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadData"]
+- !private ["Ps28CustomDebugStringConvertible", "reuseId"]
+- !private ["Ps28CustomDebugStringConvertible", "rightBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "setItems"]
+- !private ["Ps28CustomDebugStringConvertible", "setNavigationBar"]
+- !private ["Ps28CustomDebugStringConvertible", "showAlert"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "tableView"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "zip"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "row"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "LocationUtil"]
+- !private ["Ps23CustomStringConvertible", "Place"]
+- !private ["Ps23CustomStringConvertible", "PlacesCell"]
+- !private ["Ps23CustomStringConvertible", "PlacesUtil"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonSystemItem"]
+- !private ["Ps23CustomStringConvertible", "UINavigationBar"]
+- !private ["Ps23CustomStringConvertible", "UINavigationItem"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "catch"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCell"]
+- !private ["Ps23CustomStringConvertible", "fetchPlacesAndPhotos"]
+- !private ["Ps23CustomStringConvertible", "firstly"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initCell"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "places"]
+- !private ["Ps23CustomStringConvertible", "refresh"]
+- !private ["Ps23CustomStringConvertible", "register"]
+- !private ["Ps23CustomStringConvertible", "reload"]
+- !private ["Ps23CustomStringConvertible", "reloadData"]
+- !private ["Ps23CustomStringConvertible", "reuseId"]
+- !private ["Ps23CustomStringConvertible", "rightBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "setItems"]
+- !private ["Ps23CustomStringConvertible", "setNavigationBar"]
+- !private ["Ps23CustomStringConvertible", "showAlert"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "tableView"]
+- !private ["Ps23CustomStringConvertible", "then"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- !private ["Ps23CustomStringConvertible", "zip"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "LocationUtil"]
+- !private ["Ps9Equatable", "Place"]
+- !private ["Ps9Equatable", "PlacesCell"]
+- !private ["Ps9Equatable", "PlacesUtil"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "UIBarButtonSystemItem"]
+- !private ["Ps9Equatable", "UINavigationBar"]
+- !private ["Ps9Equatable", "UINavigationItem"]
+- !private ["Ps9Equatable", "UIScreen"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "dequeueReusableCell"]
+- !private ["Ps9Equatable", "fetchPlacesAndPhotos"]
+- !private ["Ps9Equatable", "firstly"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initCell"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "places"]
+- !private ["Ps9Equatable", "refresh"]
+- !private ["Ps9Equatable", "register"]
+- !private ["Ps9Equatable", "reload"]
+- !private ["Ps9Equatable", "reloadData"]
+- !private ["Ps9Equatable", "reuseId"]
+- !private ["Ps9Equatable", "rightBarButtonItem"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "setItems"]
+- !private ["Ps9Equatable", "setNavigationBar"]
+- !private ["Ps9Equatable", "showAlert"]
+- !private ["Ps9Equatable", "tableView"]
+- !private ["Ps9Equatable", "view"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "zip"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "row"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "LocationUtil"]
+- !private ["Ps8Hashable", "Place"]
+- !private ["Ps8Hashable", "PlacesCell"]
+- !private ["Ps8Hashable", "PlacesUtil"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "UIBarButtonSystemItem"]
+- !private ["Ps8Hashable", "UINavigationBar"]
+- !private ["Ps8Hashable", "UINavigationItem"]
+- !private ["Ps8Hashable", "UIScreen"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "dequeueReusableCell"]
+- !private ["Ps8Hashable", "fetchPlacesAndPhotos"]
+- !private ["Ps8Hashable", "firstly"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initCell"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "places"]
+- !private ["Ps8Hashable", "refresh"]
+- !private ["Ps8Hashable", "register"]
+- !private ["Ps8Hashable", "reload"]
+- !private ["Ps8Hashable", "reloadData"]
+- !private ["Ps8Hashable", "reuseId"]
+- !private ["Ps8Hashable", "rightBarButtonItem"]
+- !private ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "setItems"]
+- !private ["Ps8Hashable", "setNavigationBar"]
+- !private ["Ps8Hashable", "showAlert"]
+- !private ["Ps8Hashable", "tableView"]
+- !private ["Ps8Hashable", "view"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- !private ["Ps8Hashable", "zip"]
+- ["Ps8Hashable", ""]
+- ["C16FallahCodeSample18HomeViewController", "Bool"]
+- ["C16FallahCodeSample18HomeViewController", "CGFloat"]
+- !private ["C16FallahCodeSample18HomeViewController", "CGRect"]
+- ["C16FallahCodeSample18HomeViewController", "GMSPlacePhotoMetadata"]
+- ["C16FallahCodeSample18HomeViewController", "IndexPath"]
+- ["C16FallahCodeSample18HomeViewController", "Int"]
+- !private ["C16FallahCodeSample18HomeViewController", "LocationUtil"]
+- ["C16FallahCodeSample18HomeViewController", "Place"]
+- !private ["C16FallahCodeSample18HomeViewController", "PlacesCell"]
+- !private ["C16FallahCodeSample18HomeViewController", "PlacesUtil"]
+- !private ["C16FallahCodeSample18HomeViewController", "Promise"]
+- ["C16FallahCodeSample18HomeViewController", "Result"]
+- !private ["C16FallahCodeSample18HomeViewController", "UIBarButtonItem"]
+- !private ["C16FallahCodeSample18HomeViewController", "UIBarButtonSystemItem"]
+- !private ["C16FallahCodeSample18HomeViewController", "UINavigationBar"]
+- !private ["C16FallahCodeSample18HomeViewController", "UINavigationItem"]
+- !private ["C16FallahCodeSample18HomeViewController", "UIScreen"]
+- ["C16FallahCodeSample18HomeViewController", "UITableView"]
+- ["C16FallahCodeSample18HomeViewController", "UITableViewCell"]
+- !private ["C16FallahCodeSample18HomeViewController", "Void"]
+- ["C16FallahCodeSample18HomeViewController", "deinit"]
+- !private ["C16FallahCodeSample18HomeViewController", "fetchMorePlacesAndPhotos"]
+- !private ["C16FallahCodeSample18HomeViewController", "fetchPlacesAndPhotos"]
+- !private ["C16FallahCodeSample18HomeViewController", "firstly"]
+- ["C16FallahCodeSample18HomeViewController", "init"]
+- !private ["C16FallahCodeSample18HomeViewController", "photos"]
+- !private ["C16FallahCodeSample18HomeViewController", "places"]
+- !private ["C16FallahCodeSample18HomeViewController", "refresh"]
+- !private ["C16FallahCodeSample18HomeViewController", "reload"]
+- !private ["C16FallahCodeSample18HomeViewController", "setNavigationBar"]
+- !private ["C16FallahCodeSample18HomeViewController", "showAlert"]
+- ["C16FallahCodeSample18HomeViewController", "tableView"]
+- !private ["C16FallahCodeSample18HomeViewController", "view"]
+- ["C16FallahCodeSample18HomeViewController", "viewDidAppear"]
+- ["C16FallahCodeSample18HomeViewController", "viewDidLoad"]
+- !private ["C16FallahCodeSample18HomeViewController", "zip"]
+- !private ["V10Foundation9IndexPath", "row"]
+- !private ["C16FallahCodeSample12LocationUtil", "didAllowLocation"]
+- !private ["C16FallahCodeSample12LocationUtil", "getPermission"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps17MutableCollection", "row"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "LocationUtil"]
+- !private ["PSo8NSCoding", "Place"]
+- !private ["PSo8NSCoding", "PlacesCell"]
+- !private ["PSo8NSCoding", "PlacesUtil"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "UIBarButtonSystemItem"]
+- !private ["PSo8NSCoding", "UINavigationBar"]
+- !private ["PSo8NSCoding", "UINavigationItem"]
+- !private ["PSo8NSCoding", "UIScreen"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "dequeueReusableCell"]
+- !private ["PSo8NSCoding", "fetchPlacesAndPhotos"]
+- !private ["PSo8NSCoding", "firstly"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "initCell"]
+- !private ["PSo8NSCoding", "places"]
+- !private ["PSo8NSCoding", "refresh"]
+- !private ["PSo8NSCoding", "register"]
+- !private ["PSo8NSCoding", "reload"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "reuseId"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
+- !private ["PSo8NSCoding", "setItems"]
+- !private ["PSo8NSCoding", "setNavigationBar"]
+- !private ["PSo8NSCoding", "showAlert"]
+- !private ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "view"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- !private ["PSo8NSCoding", "zip"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRect"]
+- !private ["PSo26NSExtensionRequestHandling", "LocationUtil"]
+- !private ["PSo26NSExtensionRequestHandling", "Place"]
+- !private ["PSo26NSExtensionRequestHandling", "PlacesCell"]
+- !private ["PSo26NSExtensionRequestHandling", "PlacesUtil"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonSystemItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UINavigationBar"]
+- !private ["PSo26NSExtensionRequestHandling", "UINavigationItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UIScreen"]
+- !private ["PSo26NSExtensionRequestHandling", "fetchPlacesAndPhotos"]
+- !private ["PSo26NSExtensionRequestHandling", "firstly"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "places"]
+- !private ["PSo26NSExtensionRequestHandling", "refresh"]
+- !private ["PSo26NSExtensionRequestHandling", "reload"]
+- !private ["PSo26NSExtensionRequestHandling", "setNavigationBar"]
+- !private ["PSo26NSExtensionRequestHandling", "showAlert"]
+- !private ["PSo26NSExtensionRequestHandling", "tableView"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- !private ["PSo26NSExtensionRequestHandling", "zip"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "GMSPlacePhotoMetadata"]
+- ["CSo8NSObject", "IndexPath"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "LocationUtil"]
+- ["CSo8NSObject", "Place"]
+- !private ["CSo8NSObject", "PlacesCell"]
+- !private ["CSo8NSObject", "PlacesUtil"]
+- !private ["CSo8NSObject", "Promise"]
+- ["CSo8NSObject", "Result"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIBarButtonSystemItem"]
+- !private ["CSo8NSObject", "UINavigationBar"]
+- !private ["CSo8NSObject", "UINavigationItem"]
+- !private ["CSo8NSObject", "UIScreen"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "dequeueReusableCell"]
+- ["CSo8NSObject", "fetchMorePlacesAndPhotos"]
+- ["CSo8NSObject", "fetchPlacesAndPhotos"]
+- !private ["CSo8NSObject", "firstly"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "initCell"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "photos"]
+- ["CSo8NSObject", "places"]
+- ["CSo8NSObject", "refresh"]
+- !private ["CSo8NSObject", "register"]
+- ["CSo8NSObject", "reload"]
+- !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "reuseId"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
+- !private ["CSo8NSObject", "setItems"]
+- ["CSo8NSObject", "setNavigationBar"]
+- !private ["CSo8NSObject", "showAlert"]
+- ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["CSo8NSObject", "zip"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "LocationUtil"]
+- !private ["PSo16NSObjectProtocol", "Place"]
+- !private ["PSo16NSObjectProtocol", "PlacesCell"]
+- !private ["PSo16NSObjectProtocol", "PlacesUtil"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonSystemItem"]
+- !private ["PSo16NSObjectProtocol", "UINavigationBar"]
+- !private ["PSo16NSObjectProtocol", "UINavigationItem"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCell"]
+- !private ["PSo16NSObjectProtocol", "fetchPlacesAndPhotos"]
+- !private ["PSo16NSObjectProtocol", "firstly"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initCell"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "places"]
+- !private ["PSo16NSObjectProtocol", "refresh"]
+- !private ["PSo16NSObjectProtocol", "register"]
+- !private ["PSo16NSObjectProtocol", "reload"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "reuseId"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "setItems"]
+- !private ["PSo16NSObjectProtocol", "setNavigationBar"]
+- !private ["PSo16NSObjectProtocol", "showAlert"]
+- !private ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "zip"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C16FallahCodeSample5Place", "init"]
+- !private ["C16FallahCodeSample10PlacesCell", "deinit"]
+- !private ["C16FallahCodeSample10PlacesCell", "initCell"]
+- !private ["C16FallahCodeSample10PlacesCell", "reuseId"]
+- !private ["C16FallahCodeSample10PlacesUtil", "fetchPhotosForPlaces"]
+- !private ["C16FallahCodeSample10PlacesUtil", "fetchPlaces"]
+- !private ["C10PromiseKit7Promise", "catch"]
+- !private ["C10PromiseKit7Promise", "then"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps22RandomAccessCollection", "row"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps16RawRepresentable", "refresh"]
+- !private ["P10Foundation20ReferenceConvertible", "row"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "row"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCell"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "initCell"]
+- !private ["PSo29UIAccessibilityIdentification", "register"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "reuseId"]
+- !private ["PSo29UIAccessibilityIdentification", "setItems"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "dequeueReusableCell"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "initCell"]
+- !private ["PSo12UIAppearance", "register"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "reuseId"]
+- !private ["PSo12UIAppearance", "setItems"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "LocationUtil"]
+- !private ["PSo21UIAppearanceContainer", "Place"]
+- !private ["PSo21UIAppearanceContainer", "PlacesCell"]
+- !private ["PSo21UIAppearanceContainer", "PlacesUtil"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonSystemItem"]
+- !private ["PSo21UIAppearanceContainer", "UINavigationBar"]
+- !private ["PSo21UIAppearanceContainer", "UINavigationItem"]
+- !private ["PSo21UIAppearanceContainer", "UIScreen"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCell"]
+- !private ["PSo21UIAppearanceContainer", "fetchPlacesAndPhotos"]
+- !private ["PSo21UIAppearanceContainer", "firstly"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "initCell"]
+- !private ["PSo21UIAppearanceContainer", "places"]
+- !private ["PSo21UIAppearanceContainer", "refresh"]
+- !private ["PSo21UIAppearanceContainer", "register"]
+- !private ["PSo21UIAppearanceContainer", "reload"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- !private ["PSo21UIAppearanceContainer", "reuseId"]
+- !private ["PSo21UIAppearanceContainer", "setItems"]
+- !private ["PSo21UIAppearanceContainer", "setNavigationBar"]
+- !private ["PSo21UIAppearanceContainer", "showAlert"]
+- !private ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- !private ["PSo21UIAppearanceContainer", "zip"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "init"]
+- !private ["OSC21UIBarButtonSystemItem", "refresh"]
+- !private ["CSo9UIBarItem", "init"]
+- !private ["PSo16UIBarPositioning", "init"]
+- !private ["PSo16UIBarPositioning", "setItems"]
+- !private ["PSo18UIContentContainer", "CGRect"]
+- !private ["PSo18UIContentContainer", "LocationUtil"]
+- !private ["PSo18UIContentContainer", "Place"]
+- !private ["PSo18UIContentContainer", "PlacesCell"]
+- !private ["PSo18UIContentContainer", "PlacesUtil"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "UIBarButtonSystemItem"]
+- !private ["PSo18UIContentContainer", "UINavigationBar"]
+- !private ["PSo18UIContentContainer", "UINavigationItem"]
+- !private ["PSo18UIContentContainer", "UIScreen"]
+- !private ["PSo18UIContentContainer", "fetchPlacesAndPhotos"]
+- !private ["PSo18UIContentContainer", "firstly"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "places"]
+- !private ["PSo18UIContentContainer", "refresh"]
+- !private ["PSo18UIContentContainer", "reload"]
+- !private ["PSo18UIContentContainer", "setNavigationBar"]
+- !private ["PSo18UIContentContainer", "showAlert"]
+- !private ["PSo18UIContentContainer", "tableView"]
+- !private ["PSo18UIContentContainer", "view"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- !private ["PSo18UIContentContainer", "zip"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCell"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "initCell"]
+- !private ["PSo17UICoordinateSpace", "register"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "reuseId"]
+- !private ["PSo17UICoordinateSpace", "setItems"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCell"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "initCell"]
+- !private ["PSo13UIDynamicItem", "register"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "reuseId"]
+- !private ["PSo13UIDynamicItem", "setItems"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "LocationUtil"]
+- !private ["PSo18UIFocusEnvironment", "Place"]
+- !private ["PSo18UIFocusEnvironment", "PlacesCell"]
+- !private ["PSo18UIFocusEnvironment", "PlacesUtil"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonSystemItem"]
+- !private ["PSo18UIFocusEnvironment", "UINavigationBar"]
+- !private ["PSo18UIFocusEnvironment", "UINavigationItem"]
+- !private ["PSo18UIFocusEnvironment", "UIScreen"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UIFocusEnvironment", "fetchPlacesAndPhotos"]
+- !private ["PSo18UIFocusEnvironment", "firstly"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "initCell"]
+- !private ["PSo18UIFocusEnvironment", "places"]
+- !private ["PSo18UIFocusEnvironment", "refresh"]
+- !private ["PSo18UIFocusEnvironment", "register"]
+- !private ["PSo18UIFocusEnvironment", "reload"]
+- !private ["PSo18UIFocusEnvironment", "reloadData"]
+- !private ["PSo18UIFocusEnvironment", "reuseId"]
+- !private ["PSo18UIFocusEnvironment", "setItems"]
+- !private ["PSo18UIFocusEnvironment", "setNavigationBar"]
+- !private ["PSo18UIFocusEnvironment", "showAlert"]
+- !private ["PSo18UIFocusEnvironment", "tableView"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- !private ["PSo18UIFocusEnvironment", "zip"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "dequeueReusableCell"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "initCell"]
+- !private ["PSo11UIFocusItem", "register"]
+- !private ["PSo11UIFocusItem", "reloadData"]
+- !private ["PSo11UIFocusItem", "reuseId"]
+- !private ["PSo11UIFocusItem", "setItems"]
+- !private ["PSo27UIGestureRecognizerDelegate", "initCell"]
+- !private ["PSo27UIGestureRecognizerDelegate", "reuseId"]
+- !private ["CSo15UINavigationBar", "init"]
+- !private ["CSo15UINavigationBar", "setItems"]
+- !private ["CSo16UINavigationItem", "init"]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "GMSPlacePhotoMetadata"]
+- ["CSo11UIResponder", "IndexPath"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "LocationUtil"]
+- ["CSo11UIResponder", "Place"]
+- !private ["CSo11UIResponder", "PlacesCell"]
+- !private ["CSo11UIResponder", "PlacesUtil"]
+- !private ["CSo11UIResponder", "Promise"]
+- ["CSo11UIResponder", "Result"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIBarButtonSystemItem"]
+- !private ["CSo11UIResponder", "UINavigationBar"]
+- !private ["CSo11UIResponder", "UINavigationItem"]
+- !private ["CSo11UIResponder", "UIScreen"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "dequeueReusableCell"]
+- ["CSo11UIResponder", "fetchMorePlacesAndPhotos"]
+- ["CSo11UIResponder", "fetchPlacesAndPhotos"]
+- !private ["CSo11UIResponder", "firstly"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "initCell"]
+- ["CSo11UIResponder", "photos"]
+- ["CSo11UIResponder", "places"]
+- ["CSo11UIResponder", "refresh"]
+- !private ["CSo11UIResponder", "register"]
+- ["CSo11UIResponder", "reload"]
+- !private ["CSo11UIResponder", "reloadData"]
+- !private ["CSo11UIResponder", "reuseId"]
+- !private ["CSo11UIResponder", "setItems"]
+- ["CSo11UIResponder", "setNavigationBar"]
+- !private ["CSo11UIResponder", "showAlert"]
+- ["CSo11UIResponder", "tableView"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo11UIResponder", "zip"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "LocationUtil"]
+- !private ["PSo30UIResponderStandardEditActions", "Place"]
+- !private ["PSo30UIResponderStandardEditActions", "PlacesCell"]
+- !private ["PSo30UIResponderStandardEditActions", "PlacesUtil"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonSystemItem"]
+- !private ["PSo30UIResponderStandardEditActions", "UINavigationBar"]
+- !private ["PSo30UIResponderStandardEditActions", "UINavigationItem"]
+- !private ["PSo30UIResponderStandardEditActions", "UIScreen"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "dequeueReusableCell"]
+- !private ["PSo30UIResponderStandardEditActions", "fetchPlacesAndPhotos"]
+- !private ["PSo30UIResponderStandardEditActions", "firstly"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initCell"]
+- !private ["PSo30UIResponderStandardEditActions", "places"]
+- !private ["PSo30UIResponderStandardEditActions", "refresh"]
+- !private ["PSo30UIResponderStandardEditActions", "register"]
+- !private ["PSo30UIResponderStandardEditActions", "reload"]
+- !private ["PSo30UIResponderStandardEditActions", "reloadData"]
+- !private ["PSo30UIResponderStandardEditActions", "reuseId"]
+- !private ["PSo30UIResponderStandardEditActions", "setItems"]
+- !private ["PSo30UIResponderStandardEditActions", "setNavigationBar"]
+- !private ["PSo30UIResponderStandardEditActions", "showAlert"]
+- !private ["PSo30UIResponderStandardEditActions", "tableView"]
+- !private ["PSo30UIResponderStandardEditActions", "view"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "zip"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo8UIScreen", "bounds"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["CSo12UIScrollView", "dequeueReusableCell"]
+- !private ["CSo12UIScrollView", "register"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- !private ["PSo20UIScrollViewDelegate", "CGRect"]
+- !private ["PSo20UIScrollViewDelegate", "LocationUtil"]
+- !private ["PSo20UIScrollViewDelegate", "Place"]
+- !private ["PSo20UIScrollViewDelegate", "PlacesCell"]
+- !private ["PSo20UIScrollViewDelegate", "PlacesUtil"]
+- !private ["PSo20UIScrollViewDelegate", "UIBarButtonItem"]
+- !private ["PSo20UIScrollViewDelegate", "UIBarButtonSystemItem"]
+- !private ["PSo20UIScrollViewDelegate", "UINavigationBar"]
+- !private ["PSo20UIScrollViewDelegate", "UINavigationItem"]
+- !private ["PSo20UIScrollViewDelegate", "UIScreen"]
+- !private ["PSo20UIScrollViewDelegate", "fetchPlacesAndPhotos"]
+- !private ["PSo20UIScrollViewDelegate", "firstly"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "places"]
+- !private ["PSo20UIScrollViewDelegate", "refresh"]
+- !private ["PSo20UIScrollViewDelegate", "reload"]
+- !private ["PSo20UIScrollViewDelegate", "setNavigationBar"]
+- !private ["PSo20UIScrollViewDelegate", "showAlert"]
+- !private ["PSo20UIScrollViewDelegate", "tableView"]
+- !private ["PSo20UIScrollViewDelegate", "view"]
+- !private ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- !private ["PSo20UIScrollViewDelegate", "zip"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "CGRect"]
+- !private ["PSo16UIStateRestoring", "LocationUtil"]
+- !private ["PSo16UIStateRestoring", "Place"]
+- !private ["PSo16UIStateRestoring", "PlacesCell"]
+- !private ["PSo16UIStateRestoring", "PlacesUtil"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonSystemItem"]
+- !private ["PSo16UIStateRestoring", "UINavigationBar"]
+- !private ["PSo16UIStateRestoring", "UINavigationItem"]
+- !private ["PSo16UIStateRestoring", "UIScreen"]
+- !private ["PSo16UIStateRestoring", "fetchPlacesAndPhotos"]
+- !private ["PSo16UIStateRestoring", "firstly"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "places"]
+- !private ["PSo16UIStateRestoring", "refresh"]
+- !private ["PSo16UIStateRestoring", "reload"]
+- !private ["PSo16UIStateRestoring", "setNavigationBar"]
+- !private ["PSo16UIStateRestoring", "showAlert"]
+- !private ["PSo16UIStateRestoring", "tableView"]
+- !private ["PSo16UIStateRestoring", "view"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "zip"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "dequeueReusableCell"]
+- !private ["CSo11UITableView", "register"]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo15UITableViewCell", "initCell"]
+- !private ["CSo15UITableViewCell", "reuseId"]
+- ["CSo21UITableViewController", "Bool"]
+- ["CSo21UITableViewController", "CGFloat"]
+- !private ["CSo21UITableViewController", "CGRect"]
+- ["CSo21UITableViewController", "GMSPlacePhotoMetadata"]
+- ["CSo21UITableViewController", "IndexPath"]
+- ["CSo21UITableViewController", "Int"]
+- !private ["CSo21UITableViewController", "LocationUtil"]
+- ["CSo21UITableViewController", "Place"]
+- !private ["CSo21UITableViewController", "PlacesCell"]
+- !private ["CSo21UITableViewController", "PlacesUtil"]
+- !private ["CSo21UITableViewController", "Promise"]
+- ["CSo21UITableViewController", "Result"]
+- !private ["CSo21UITableViewController", "UIBarButtonItem"]
+- !private ["CSo21UITableViewController", "UIBarButtonSystemItem"]
+- !private ["CSo21UITableViewController", "UINavigationBar"]
+- !private ["CSo21UITableViewController", "UINavigationItem"]
+- !private ["CSo21UITableViewController", "UIScreen"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "UITableViewCell"]
+- !private ["CSo21UITableViewController", "Void"]
+- ["CSo21UITableViewController", "fetchMorePlacesAndPhotos"]
+- ["CSo21UITableViewController", "fetchPlacesAndPhotos"]
+- !private ["CSo21UITableViewController", "firstly"]
+- ["CSo21UITableViewController", "init"]
+- ["CSo21UITableViewController", "photos"]
+- ["CSo21UITableViewController", "places"]
+- ["CSo21UITableViewController", "refresh"]
+- ["CSo21UITableViewController", "reload"]
+- ["CSo21UITableViewController", "setNavigationBar"]
+- !private ["CSo21UITableViewController", "showAlert"]
+- ["CSo21UITableViewController", "tableView"]
+- !private ["CSo21UITableViewController", "view"]
+- ["CSo21UITableViewController", "viewDidAppear"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- !private ["CSo21UITableViewController", "zip"]
+- ["CSo21UITableViewController", ""]
+- !private ["PSo21UITableViewDataSource", "CGRect"]
+- !private ["PSo21UITableViewDataSource", "LocationUtil"]
+- !private ["PSo21UITableViewDataSource", "Place"]
+- !private ["PSo21UITableViewDataSource", "PlacesCell"]
+- !private ["PSo21UITableViewDataSource", "PlacesUtil"]
+- !private ["PSo21UITableViewDataSource", "UIBarButtonItem"]
+- !private ["PSo21UITableViewDataSource", "UIBarButtonSystemItem"]
+- !private ["PSo21UITableViewDataSource", "UINavigationBar"]
+- !private ["PSo21UITableViewDataSource", "UINavigationItem"]
+- !private ["PSo21UITableViewDataSource", "UIScreen"]
+- !private ["PSo21UITableViewDataSource", "fetchPlacesAndPhotos"]
+- !private ["PSo21UITableViewDataSource", "firstly"]
+- !private ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "places"]
+- !private ["PSo21UITableViewDataSource", "refresh"]
+- !private ["PSo21UITableViewDataSource", "reload"]
+- !private ["PSo21UITableViewDataSource", "setNavigationBar"]
+- !private ["PSo21UITableViewDataSource", "showAlert"]
+- !private ["PSo21UITableViewDataSource", "tableView"]
+- !private ["PSo21UITableViewDataSource", "view"]
+- !private ["PSo21UITableViewDataSource", "viewDidLoad"]
+- !private ["PSo21UITableViewDataSource", "zip"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "CGRect"]
+- !private ["PSo19UITableViewDelegate", "LocationUtil"]
+- !private ["PSo19UITableViewDelegate", "Place"]
+- !private ["PSo19UITableViewDelegate", "PlacesCell"]
+- !private ["PSo19UITableViewDelegate", "PlacesUtil"]
+- !private ["PSo19UITableViewDelegate", "UIBarButtonItem"]
+- !private ["PSo19UITableViewDelegate", "UIBarButtonSystemItem"]
+- !private ["PSo19UITableViewDelegate", "UINavigationBar"]
+- !private ["PSo19UITableViewDelegate", "UINavigationItem"]
+- !private ["PSo19UITableViewDelegate", "UIScreen"]
+- !private ["PSo19UITableViewDelegate", "fetchPlacesAndPhotos"]
+- !private ["PSo19UITableViewDelegate", "firstly"]
+- !private ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo19UITableViewDelegate", "places"]
+- !private ["PSo19UITableViewDelegate", "refresh"]
+- !private ["PSo19UITableViewDelegate", "reload"]
+- !private ["PSo19UITableViewDelegate", "setNavigationBar"]
+- !private ["PSo19UITableViewDelegate", "showAlert"]
+- !private ["PSo19UITableViewDelegate", "tableView"]
+- !private ["PSo19UITableViewDelegate", "view"]
+- !private ["PSo19UITableViewDelegate", "viewDidLoad"]
+- !private ["PSo19UITableViewDelegate", "zip"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "LocationUtil"]
+- !private ["PSo18UITraitEnvironment", "Place"]
+- !private ["PSo18UITraitEnvironment", "PlacesCell"]
+- !private ["PSo18UITraitEnvironment", "PlacesUtil"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonSystemItem"]
+- !private ["PSo18UITraitEnvironment", "UINavigationBar"]
+- !private ["PSo18UITraitEnvironment", "UINavigationItem"]
+- !private ["PSo18UITraitEnvironment", "UIScreen"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCell"]
+- !private ["PSo18UITraitEnvironment", "fetchPlacesAndPhotos"]
+- !private ["PSo18UITraitEnvironment", "firstly"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "initCell"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- !private ["PSo18UITraitEnvironment", "places"]
+- !private ["PSo18UITraitEnvironment", "refresh"]
+- !private ["PSo18UITraitEnvironment", "register"]
+- !private ["PSo18UITraitEnvironment", "reload"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- !private ["PSo18UITraitEnvironment", "reuseId"]
+- !private ["PSo18UITraitEnvironment", "setItems"]
+- !private ["PSo18UITraitEnvironment", "setNavigationBar"]
+- !private ["PSo18UITraitEnvironment", "showAlert"]
+- !private ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- !private ["PSo18UITraitEnvironment", "zip"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "dequeueReusableCell"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "initCell"]
+- !private ["CSo6UIView", "register"]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "reuseId"]
+- !private ["CSo6UIView", "setItems"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "CGRect"]
+- ["CSo16UIViewController", "GMSPlacePhotoMetadata"]
+- ["CSo16UIViewController", "IndexPath"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "LocationUtil"]
+- ["CSo16UIViewController", "Place"]
+- !private ["CSo16UIViewController", "PlacesCell"]
+- !private ["CSo16UIViewController", "PlacesUtil"]
+- !private ["CSo16UIViewController", "Promise"]
+- ["CSo16UIViewController", "Result"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UIBarButtonSystemItem"]
+- !private ["CSo16UIViewController", "UINavigationBar"]
+- !private ["CSo16UIViewController", "UINavigationItem"]
+- !private ["CSo16UIViewController", "UIScreen"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "fetchMorePlacesAndPhotos"]
+- ["CSo16UIViewController", "fetchPlacesAndPhotos"]
+- !private ["CSo16UIViewController", "firstly"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "photos"]
+- ["CSo16UIViewController", "places"]
+- ["CSo16UIViewController", "refresh"]
+- ["CSo16UIViewController", "reload"]
+- ["CSo16UIViewController", "setNavigationBar"]
+- !private ["CSo16UIViewController", "showAlert"]
+- ["CSo16UIViewController", "tableView"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["CSo16UIViewController", "zip"]
+- !private ["Vs12Zip2Sequence", "map"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "row"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "dequeueReusableCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "initCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "register"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reloadData"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "reuseId"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setItems"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "LocationUtil"]
+- !private ["Ps9_Hashable", "Place"]
+- !private ["Ps9_Hashable", "PlacesCell"]
+- !private ["Ps9_Hashable", "PlacesUtil"]
+- !private ["Ps9_Hashable", "UIBarButtonItem"]
+- !private ["Ps9_Hashable", "UIBarButtonSystemItem"]
+- !private ["Ps9_Hashable", "UINavigationBar"]
+- !private ["Ps9_Hashable", "UINavigationItem"]
+- !private ["Ps9_Hashable", "UIScreen"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "dequeueReusableCell"]
+- !private ["Ps9_Hashable", "fetchPlacesAndPhotos"]
+- !private ["Ps9_Hashable", "firstly"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initCell"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "places"]
+- !private ["Ps9_Hashable", "refresh"]
+- !private ["Ps9_Hashable", "register"]
+- !private ["Ps9_Hashable", "reload"]
+- !private ["Ps9_Hashable", "reloadData"]
+- !private ["Ps9_Hashable", "reuseId"]
+- !private ["Ps9_Hashable", "rightBarButtonItem"]
+- !private ["Ps9_Hashable", "row"]
+- !private ["Ps9_Hashable", "setItems"]
+- !private ["Ps9_Hashable", "setNavigationBar"]
+- !private ["Ps9_Hashable", "showAlert"]
+- !private ["Ps9_Hashable", "tableView"]
+- !private ["Ps9_Hashable", "view"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- !private ["Ps9_Hashable", "zip"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps10_Indexable", "row"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps14_IndexableBase", "row"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "row"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "row"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "row"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "C16FallahCodeSample18HomeViewController"
+- !private "V10Foundation9IndexPath"
+- !private "C16FallahCodeSample12LocationUtil"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C16FallahCodeSample5Place"
+- !private "C16FallahCodeSample10PlacesCell"
+- !private "C16FallahCodeSample10PlacesUtil"
+- !private "C10PromiseKit7Promise"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "OSC21UIBarButtonSystemItem"
+- !private "CSo9UIBarItem"
+- !private "PSo16UIBarPositioning"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo15UINavigationBar"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo8UIScreen"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Vs12Zip2Sequence"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout+Internal.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GooglePlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayoutDefines.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSLayoutConstraint+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/ALView+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSArray+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Modules/module.modulemap"
+interface-hash: "e2831c1e80f0c62683209cebf1443e44"

@@ -1,0 +1,916 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlacesCell"
+provides-nominal:
+- "C16FallahCodeSample10PlacesCell"
+provides-member:
+- ["C16FallahCodeSample10PlacesCell", ""]
+provides-dynamic-lookup:
+- "nameLabel"
+- "profileImageView"
+- "reuseId"
+- "setupPlaceImageView"
+- "setupTitleLabel"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Error"
+- "NSCoder"
+- "Place"
+- "PlacesCell"
+- !private "PlacesUtil"
+- "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- !private "UIEdgeInsets"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- "UITableViewCellStyle"
+- !private "_ImageLiteralType"
+depends-member:
+- !private ["OSC6ALAxis", "horizontal"]
+- !private ["OSC11ALDimension", "width"]
+- !private ["OSC6ALEdge", "left"]
+- !private ["OSC6ALEdge", "right"]
+- !private ["Ps9AnyObject", "PlacesUtil"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIEdgeInsets"]
+- ["Ps9AnyObject", "UIImageView"]
+- ["Ps9AnyObject", "UILabel"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "autoAlignAxis"]
+- !private ["Ps9AnyObject", "autoPinEdge"]
+- !private ["Ps9AnyObject", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps9AnyObject", "autoSetDimension"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "catch"]
+- !private ["Ps9AnyObject", "contentView"]
+- !private ["Ps9AnyObject", "fetchPhotoForPlace"]
+- !private ["Ps9AnyObject", "green"]
+- !private ["Ps9AnyObject", "hood"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "loadImage"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "nameLabel"]
+- !private ["Ps9AnyObject", "photo"]
+- !private ["Ps9AnyObject", "place"]
+- !private ["Ps9AnyObject", "placeID"]
+- !private ["Ps9AnyObject", "profileImageView"]
+- !private ["Ps9AnyObject", "setupCell"]
+- !private ["Ps9AnyObject", "setupPlaceImageView"]
+- !private ["Ps9AnyObject", "setupTitleLabel"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "then"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "PlacesUtil"]
+- !private ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "UIEdgeInsets"]
+- ["PSo15CALayerDelegate", "UIImageView"]
+- ["PSo15CALayerDelegate", "UILabel"]
+- !private ["PSo15CALayerDelegate", "addSubview"]
+- !private ["PSo15CALayerDelegate", "autoAlignAxis"]
+- !private ["PSo15CALayerDelegate", "autoPinEdge"]
+- !private ["PSo15CALayerDelegate", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo15CALayerDelegate", "autoSetDimension"]
+- !private ["PSo15CALayerDelegate", "backgroundColor"]
+- !private ["PSo15CALayerDelegate", "contentView"]
+- !private ["PSo15CALayerDelegate", "image"]
+- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "loadImage"]
+- !private ["PSo15CALayerDelegate", "nameLabel"]
+- !private ["PSo15CALayerDelegate", "profileImageView"]
+- !private ["PSo15CALayerDelegate", "setupCell"]
+- !private ["PSo15CALayerDelegate", "setupPlaceImageView"]
+- !private ["PSo15CALayerDelegate", "setupTitleLabel"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "PlacesUtil"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIEdgeInsets"]
+- ["Ps7CVarArg", "UIImageView"]
+- ["Ps7CVarArg", "UILabel"]
+- !private ["Ps7CVarArg", "addSubview"]
+- !private ["Ps7CVarArg", "autoAlignAxis"]
+- !private ["Ps7CVarArg", "autoPinEdge"]
+- !private ["Ps7CVarArg", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps7CVarArg", "autoSetDimension"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "contentView"]
+- !private ["Ps7CVarArg", "green"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "loadImage"]
+- !private ["Ps7CVarArg", "name"]
+- !private ["Ps7CVarArg", "nameLabel"]
+- !private ["Ps7CVarArg", "place"]
+- !private ["Ps7CVarArg", "placeID"]
+- !private ["Ps7CVarArg", "profileImageView"]
+- !private ["Ps7CVarArg", "setupCell"]
+- !private ["Ps7CVarArg", "setupPlaceImageView"]
+- !private ["Ps7CVarArg", "setupTitleLabel"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "PlacesUtil"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIEdgeInsets"]
+- ["Ps28CustomDebugStringConvertible", "UIImageView"]
+- ["Ps28CustomDebugStringConvertible", "UILabel"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "autoAlignAxis"]
+- !private ["Ps28CustomDebugStringConvertible", "autoPinEdge"]
+- !private ["Ps28CustomDebugStringConvertible", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps28CustomDebugStringConvertible", "autoSetDimension"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "contentView"]
+- !private ["Ps28CustomDebugStringConvertible", "green"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "loadImage"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "nameLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "place"]
+- !private ["Ps28CustomDebugStringConvertible", "placeID"]
+- !private ["Ps28CustomDebugStringConvertible", "profileImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "setupCell"]
+- !private ["Ps28CustomDebugStringConvertible", "setupPlaceImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "setupTitleLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "PlacesUtil"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIEdgeInsets"]
+- ["Ps23CustomStringConvertible", "UIImageView"]
+- ["Ps23CustomStringConvertible", "UILabel"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "autoAlignAxis"]
+- !private ["Ps23CustomStringConvertible", "autoPinEdge"]
+- !private ["Ps23CustomStringConvertible", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps23CustomStringConvertible", "autoSetDimension"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "catch"]
+- !private ["Ps23CustomStringConvertible", "contentView"]
+- !private ["Ps23CustomStringConvertible", "green"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "loadImage"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "nameLabel"]
+- !private ["Ps23CustomStringConvertible", "place"]
+- !private ["Ps23CustomStringConvertible", "placeID"]
+- !private ["Ps23CustomStringConvertible", "profileImageView"]
+- !private ["Ps23CustomStringConvertible", "setupCell"]
+- !private ["Ps23CustomStringConvertible", "setupPlaceImageView"]
+- !private ["Ps23CustomStringConvertible", "setupTitleLabel"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "then"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "PlacesUtil"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIEdgeInsets"]
+- ["Ps9Equatable", "UIImageView"]
+- ["Ps9Equatable", "UILabel"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "autoAlignAxis"]
+- !private ["Ps9Equatable", "autoPinEdge"]
+- !private ["Ps9Equatable", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps9Equatable", "autoSetDimension"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "contentView"]
+- !private ["Ps9Equatable", "green"]
+- !private ["Ps9Equatable", "horizontal"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "left"]
+- !private ["Ps9Equatable", "loadImage"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "nameLabel"]
+- !private ["Ps9Equatable", "place"]
+- !private ["Ps9Equatable", "placeID"]
+- !private ["Ps9Equatable", "profileImageView"]
+- !private ["Ps9Equatable", "right"]
+- !private ["Ps9Equatable", "setupCell"]
+- !private ["Ps9Equatable", "setupPlaceImageView"]
+- !private ["Ps9Equatable", "setupTitleLabel"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo8GMSPlace", "name"]
+- !private ["CSo8GMSPlace", "placeID"]
+- !private ["CSo18GMSPlaceLikelihood", "place"]
+- !private ["Ps8Hashable", "PlacesUtil"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIEdgeInsets"]
+- ["Ps8Hashable", "UIImageView"]
+- ["Ps8Hashable", "UILabel"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "autoAlignAxis"]
+- !private ["Ps8Hashable", "autoPinEdge"]
+- !private ["Ps8Hashable", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps8Hashable", "autoSetDimension"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "contentView"]
+- !private ["Ps8Hashable", "green"]
+- !private ["Ps8Hashable", "horizontal"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "left"]
+- !private ["Ps8Hashable", "loadImage"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "nameLabel"]
+- !private ["Ps8Hashable", "place"]
+- !private ["Ps8Hashable", "placeID"]
+- !private ["Ps8Hashable", "profileImageView"]
+- !private ["Ps8Hashable", "right"]
+- !private ["Ps8Hashable", "setupCell"]
+- !private ["Ps8Hashable", "setupPlaceImageView"]
+- !private ["Ps8Hashable", "setupTitleLabel"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "width"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "PlacesUtil"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIEdgeInsets"]
+- ["PSo8NSCoding", "UIImageView"]
+- ["PSo8NSCoding", "UILabel"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "autoAlignAxis"]
+- !private ["PSo8NSCoding", "autoPinEdge"]
+- !private ["PSo8NSCoding", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo8NSCoding", "autoSetDimension"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "contentView"]
+- !private ["PSo8NSCoding", "green"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "loadImage"]
+- !private ["PSo8NSCoding", "nameLabel"]
+- !private ["PSo8NSCoding", "profileImageView"]
+- !private ["PSo8NSCoding", "setupCell"]
+- !private ["PSo8NSCoding", "setupPlaceImageView"]
+- !private ["PSo8NSCoding", "setupTitleLabel"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "green"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "place"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "Place"]
+- !private ["CSo8NSObject", "PlacesUtil"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIEdgeInsets"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITableViewCellStyle"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "autoAlignAxis"]
+- !private ["CSo8NSObject", "autoPinEdge"]
+- !private ["CSo8NSObject", "autoPinEdgesToSuperviewEdges"]
+- !private ["CSo8NSObject", "autoSetDimension"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "contentView"]
+- !private ["CSo8NSObject", "green"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initCell"]
+- !private ["CSo8NSObject", "loadImage"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "nameLabel"]
+- !private ["CSo8NSObject", "place"]
+- !private ["CSo8NSObject", "placeID"]
+- ["CSo8NSObject", "profileImageView"]
+- ["CSo8NSObject", "reuseId"]
+- ["CSo8NSObject", "setupCell"]
+- ["CSo8NSObject", "setupPlaceImageView"]
+- ["CSo8NSObject", "setupTitleLabel"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "PlacesUtil"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIEdgeInsets"]
+- ["PSo16NSObjectProtocol", "UIImageView"]
+- ["PSo16NSObjectProtocol", "UILabel"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "autoAlignAxis"]
+- !private ["PSo16NSObjectProtocol", "autoPinEdge"]
+- !private ["PSo16NSObjectProtocol", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo16NSObjectProtocol", "autoSetDimension"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- !private ["PSo16NSObjectProtocol", "green"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "loadImage"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "nameLabel"]
+- !private ["PSo16NSObjectProtocol", "place"]
+- !private ["PSo16NSObjectProtocol", "placeID"]
+- !private ["PSo16NSObjectProtocol", "profileImageView"]
+- !private ["PSo16NSObjectProtocol", "setupCell"]
+- !private ["PSo16NSObjectProtocol", "setupPlaceImageView"]
+- !private ["PSo16NSObjectProtocol", "setupTitleLabel"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "green"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C16FallahCodeSample5Place", "hood"]
+- !private ["C16FallahCodeSample5Place", "photo"]
+- !private ["C16FallahCodeSample10PlacesCell", "Error"]
+- ["C16FallahCodeSample10PlacesCell", "NSCoder"]
+- ["C16FallahCodeSample10PlacesCell", "Place"]
+- !private ["C16FallahCodeSample10PlacesCell", "PlacesUtil"]
+- ["C16FallahCodeSample10PlacesCell", "String"]
+- !private ["C16FallahCodeSample10PlacesCell", "UIColor"]
+- !private ["C16FallahCodeSample10PlacesCell", "UIEdgeInsets"]
+- ["C16FallahCodeSample10PlacesCell", "UIImageView"]
+- ["C16FallahCodeSample10PlacesCell", "UILabel"]
+- ["C16FallahCodeSample10PlacesCell", "UITableViewCellStyle"]
+- !private ["C16FallahCodeSample10PlacesCell", "contentView"]
+- ["C16FallahCodeSample10PlacesCell", "deinit"]
+- ["C16FallahCodeSample10PlacesCell", "init"]
+- ["C16FallahCodeSample10PlacesCell", "initCell"]
+- ["C16FallahCodeSample10PlacesCell", "nameLabel"]
+- ["C16FallahCodeSample10PlacesCell", "profileImageView"]
+- ["C16FallahCodeSample10PlacesCell", "reuseId"]
+- !private ["C16FallahCodeSample10PlacesCell", "setupCell"]
+- ["C16FallahCodeSample10PlacesCell", "setupPlaceImageView"]
+- ["C16FallahCodeSample10PlacesCell", "setupTitleLabel"]
+- !private ["C16FallahCodeSample10PlacesUtil", "fetchPhotoForPlace"]
+- !private ["C10PromiseKit7Promise", "catch"]
+- !private ["C10PromiseKit7Promise", "then"]
+- !private ["Ps16RawRepresentable", "horizontal"]
+- !private ["Ps16RawRepresentable", "left"]
+- !private ["Ps16RawRepresentable", "right"]
+- !private ["Ps16RawRepresentable", "width"]
+- !private ["O10PromiseKit6Result", "boolValue"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "PlacesUtil"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIEdgeInsets"]
+- ["PSo29UIAccessibilityIdentification", "UIImageView"]
+- ["PSo29UIAccessibilityIdentification", "UILabel"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "autoAlignAxis"]
+- !private ["PSo29UIAccessibilityIdentification", "autoPinEdge"]
+- !private ["PSo29UIAccessibilityIdentification", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo29UIAccessibilityIdentification", "autoSetDimension"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "loadImage"]
+- !private ["PSo29UIAccessibilityIdentification", "nameLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "profileImageView"]
+- !private ["PSo29UIAccessibilityIdentification", "setupCell"]
+- !private ["PSo29UIAccessibilityIdentification", "setupPlaceImageView"]
+- !private ["PSo29UIAccessibilityIdentification", "setupTitleLabel"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "PlacesUtil"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIEdgeInsets"]
+- ["PSo12UIAppearance", "UIImageView"]
+- ["PSo12UIAppearance", "UILabel"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "autoAlignAxis"]
+- !private ["PSo12UIAppearance", "autoPinEdge"]
+- !private ["PSo12UIAppearance", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo12UIAppearance", "autoSetDimension"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "contentView"]
+- !private ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "loadImage"]
+- !private ["PSo12UIAppearance", "nameLabel"]
+- !private ["PSo12UIAppearance", "profileImageView"]
+- !private ["PSo12UIAppearance", "setupCell"]
+- !private ["PSo12UIAppearance", "setupPlaceImageView"]
+- !private ["PSo12UIAppearance", "setupTitleLabel"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "PlacesUtil"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIEdgeInsets"]
+- ["PSo21UIAppearanceContainer", "UIImageView"]
+- ["PSo21UIAppearanceContainer", "UILabel"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "autoAlignAxis"]
+- !private ["PSo21UIAppearanceContainer", "autoPinEdge"]
+- !private ["PSo21UIAppearanceContainer", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo21UIAppearanceContainer", "autoSetDimension"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "loadImage"]
+- !private ["PSo21UIAppearanceContainer", "nameLabel"]
+- !private ["PSo21UIAppearanceContainer", "profileImageView"]
+- !private ["PSo21UIAppearanceContainer", "setupCell"]
+- !private ["PSo21UIAppearanceContainer", "setupPlaceImageView"]
+- !private ["PSo21UIAppearanceContainer", "setupTitleLabel"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "green"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "autoAlignAxis"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "autoPinEdge"]
+- ["PSo30UIContentSizeCategoryAdjusting", "init"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "PlacesUtil"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIEdgeInsets"]
+- ["PSo17UICoordinateSpace", "UIImageView"]
+- ["PSo17UICoordinateSpace", "UILabel"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "autoAlignAxis"]
+- !private ["PSo17UICoordinateSpace", "autoPinEdge"]
+- !private ["PSo17UICoordinateSpace", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo17UICoordinateSpace", "autoSetDimension"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "contentView"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "loadImage"]
+- !private ["PSo17UICoordinateSpace", "nameLabel"]
+- !private ["PSo17UICoordinateSpace", "profileImageView"]
+- !private ["PSo17UICoordinateSpace", "setupCell"]
+- !private ["PSo17UICoordinateSpace", "setupPlaceImageView"]
+- !private ["PSo17UICoordinateSpace", "setupTitleLabel"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "PlacesUtil"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIEdgeInsets"]
+- ["PSo13UIDynamicItem", "UIImageView"]
+- ["PSo13UIDynamicItem", "UILabel"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "autoAlignAxis"]
+- !private ["PSo13UIDynamicItem", "autoPinEdge"]
+- !private ["PSo13UIDynamicItem", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo13UIDynamicItem", "autoSetDimension"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "contentView"]
+- !private ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "loadImage"]
+- !private ["PSo13UIDynamicItem", "nameLabel"]
+- !private ["PSo13UIDynamicItem", "profileImageView"]
+- !private ["PSo13UIDynamicItem", "setupCell"]
+- !private ["PSo13UIDynamicItem", "setupPlaceImageView"]
+- !private ["PSo13UIDynamicItem", "setupTitleLabel"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["VSC12UIEdgeInsets", "init"]
+- !private ["PSo18UIFocusEnvironment", "PlacesUtil"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIEdgeInsets"]
+- ["PSo18UIFocusEnvironment", "UIImageView"]
+- ["PSo18UIFocusEnvironment", "UILabel"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "autoAlignAxis"]
+- !private ["PSo18UIFocusEnvironment", "autoPinEdge"]
+- !private ["PSo18UIFocusEnvironment", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo18UIFocusEnvironment", "autoSetDimension"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "loadImage"]
+- !private ["PSo18UIFocusEnvironment", "nameLabel"]
+- !private ["PSo18UIFocusEnvironment", "profileImageView"]
+- !private ["PSo18UIFocusEnvironment", "setupCell"]
+- !private ["PSo18UIFocusEnvironment", "setupPlaceImageView"]
+- !private ["PSo18UIFocusEnvironment", "setupTitleLabel"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "PlacesUtil"]
+- !private ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "UIEdgeInsets"]
+- ["PSo11UIFocusItem", "UIImageView"]
+- ["PSo11UIFocusItem", "UILabel"]
+- !private ["PSo11UIFocusItem", "addSubview"]
+- !private ["PSo11UIFocusItem", "autoAlignAxis"]
+- !private ["PSo11UIFocusItem", "autoPinEdge"]
+- !private ["PSo11UIFocusItem", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo11UIFocusItem", "autoSetDimension"]
+- !private ["PSo11UIFocusItem", "backgroundColor"]
+- !private ["PSo11UIFocusItem", "contentView"]
+- !private ["PSo11UIFocusItem", "image"]
+- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "loadImage"]
+- !private ["PSo11UIFocusItem", "nameLabel"]
+- !private ["PSo11UIFocusItem", "profileImageView"]
+- !private ["PSo11UIFocusItem", "setupCell"]
+- !private ["PSo11UIFocusItem", "setupPlaceImageView"]
+- !private ["PSo11UIFocusItem", "setupTitleLabel"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "PlacesUtil"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIColor"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIEdgeInsets"]
+- ["PSo27UIGestureRecognizerDelegate", "UIImageView"]
+- ["PSo27UIGestureRecognizerDelegate", "UILabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "contentView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "nameLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "profileImageView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setupCell"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setupPlaceImageView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "setupTitleLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo11UIImageView", "autoPinEdgesToSuperviewEdges"]
+- !private ["CSo11UIImageView", "autoSetDimension"]
+- !private ["CSo11UIImageView", "backgroundColor"]
+- !private ["CSo11UIImageView", "image"]
+- ["CSo11UIImageView", "init"]
+- !private ["CSo11UIImageView", "loadImage"]
+- !private ["CSo7UILabel", "autoAlignAxis"]
+- !private ["CSo7UILabel", "autoPinEdge"]
+- ["CSo7UILabel", "init"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "Error"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "Place"]
+- !private ["CSo11UIResponder", "PlacesUtil"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIEdgeInsets"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITableViewCellStyle"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "autoAlignAxis"]
+- !private ["CSo11UIResponder", "autoPinEdge"]
+- !private ["CSo11UIResponder", "autoPinEdgesToSuperviewEdges"]
+- !private ["CSo11UIResponder", "autoSetDimension"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "contentView"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initCell"]
+- !private ["CSo11UIResponder", "loadImage"]
+- ["CSo11UIResponder", "nameLabel"]
+- ["CSo11UIResponder", "profileImageView"]
+- ["CSo11UIResponder", "reuseId"]
+- ["CSo11UIResponder", "setupCell"]
+- ["CSo11UIResponder", "setupPlaceImageView"]
+- ["CSo11UIResponder", "setupTitleLabel"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "PlacesUtil"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIEdgeInsets"]
+- ["PSo30UIResponderStandardEditActions", "UIImageView"]
+- ["PSo30UIResponderStandardEditActions", "UILabel"]
+- !private ["PSo30UIResponderStandardEditActions", "addSubview"]
+- !private ["PSo30UIResponderStandardEditActions", "autoAlignAxis"]
+- !private ["PSo30UIResponderStandardEditActions", "autoPinEdge"]
+- !private ["PSo30UIResponderStandardEditActions", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo30UIResponderStandardEditActions", "autoSetDimension"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
+- !private ["PSo30UIResponderStandardEditActions", "contentView"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "loadImage"]
+- !private ["PSo30UIResponderStandardEditActions", "nameLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "profileImageView"]
+- !private ["PSo30UIResponderStandardEditActions", "setupCell"]
+- !private ["PSo30UIResponderStandardEditActions", "setupPlaceImageView"]
+- !private ["PSo30UIResponderStandardEditActions", "setupTitleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo15UITableViewCell", "Error"]
+- ["CSo15UITableViewCell", "NSCoder"]
+- ["CSo15UITableViewCell", "Place"]
+- !private ["CSo15UITableViewCell", "PlacesUtil"]
+- ["CSo15UITableViewCell", "String"]
+- !private ["CSo15UITableViewCell", "UIColor"]
+- !private ["CSo15UITableViewCell", "UIEdgeInsets"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITableViewCellStyle"]
+- !private ["CSo15UITableViewCell", "contentView"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "initCell"]
+- ["CSo15UITableViewCell", "nameLabel"]
+- ["CSo15UITableViewCell", "profileImageView"]
+- ["CSo15UITableViewCell", "reuseId"]
+- ["CSo15UITableViewCell", "setupCell"]
+- ["CSo15UITableViewCell", "setupPlaceImageView"]
+- ["CSo15UITableViewCell", "setupTitleLabel"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "PlacesUtil"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIEdgeInsets"]
+- ["PSo18UITraitEnvironment", "UIImageView"]
+- ["PSo18UITraitEnvironment", "UILabel"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "autoAlignAxis"]
+- !private ["PSo18UITraitEnvironment", "autoPinEdge"]
+- !private ["PSo18UITraitEnvironment", "autoPinEdgesToSuperviewEdges"]
+- !private ["PSo18UITraitEnvironment", "autoSetDimension"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "loadImage"]
+- !private ["PSo18UITraitEnvironment", "nameLabel"]
+- !private ["PSo18UITraitEnvironment", "profileImageView"]
+- !private ["PSo18UITraitEnvironment", "setupCell"]
+- !private ["PSo18UITraitEnvironment", "setupPlaceImageView"]
+- !private ["PSo18UITraitEnvironment", "setupTitleLabel"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "Error"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "Place"]
+- !private ["CSo6UIView", "PlacesUtil"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIEdgeInsets"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITableViewCellStyle"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "autoAlignAxis"]
+- !private ["CSo6UIView", "autoPinEdge"]
+- !private ["CSo6UIView", "autoPinEdgesToSuperviewEdges"]
+- !private ["CSo6UIView", "autoSetDimension"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "contentView"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "initCell"]
+- !private ["CSo6UIView", "loadImage"]
+- ["CSo6UIView", "nameLabel"]
+- ["CSo6UIView", "profileImageView"]
+- ["CSo6UIView", "reuseId"]
+- ["CSo6UIView", "setupCell"]
+- ["CSo6UIView", "setupPlaceImageView"]
+- ["CSo6UIView", "setupTitleLabel"]
+- !private ["CSo6UIView", "text"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "PlacesUtil"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIEdgeInsets"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UILabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addSubview"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoAlignAxis"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoPinEdge"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "autoSetDimension"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "loadImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "nameLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "profileImageView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setupCell"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setupPlaceImageView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setupTitleLabel"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "green"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "PlacesUtil"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIEdgeInsets"]
+- ["Ps9_Hashable", "UIImageView"]
+- ["Ps9_Hashable", "UILabel"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addSubview"]
+- !private ["Ps9_Hashable", "autoAlignAxis"]
+- !private ["Ps9_Hashable", "autoPinEdge"]
+- !private ["Ps9_Hashable", "autoPinEdgesToSuperviewEdges"]
+- !private ["Ps9_Hashable", "autoSetDimension"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "contentView"]
+- !private ["Ps9_Hashable", "green"]
+- !private ["Ps9_Hashable", "horizontal"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "left"]
+- !private ["Ps9_Hashable", "loadImage"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "nameLabel"]
+- !private ["Ps9_Hashable", "place"]
+- !private ["Ps9_Hashable", "placeID"]
+- !private ["Ps9_Hashable", "profileImageView"]
+- !private ["Ps9_Hashable", "right"]
+- !private ["Ps9_Hashable", "setupCell"]
+- !private ["Ps9_Hashable", "setupPlaceImageView"]
+- !private ["Ps9_Hashable", "setupTitleLabel"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "width"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "OSC6ALAxis"
+- !private "OSC11ALDimension"
+- !private "OSC6ALEdge"
+- "Ps9AnyObject"
+- !private "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "CSo8GMSPlace"
+- !private "CSo18GMSPlaceLikelihood"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C16FallahCodeSample5Place"
+- "C16FallahCodeSample10PlacesCell"
+- !private "C16FallahCodeSample10PlacesUtil"
+- !private "C10PromiseKit7Promise"
+- !private "Ps16RawRepresentable"
+- !private "O10PromiseKit6Result"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- !private "VSC12UIEdgeInsets"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIImageView"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/PromiseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout-umbrella.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/fwd.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKQuartzCore.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSTask+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSURLSession+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIViewController+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/NSNotificationCenter+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/CALayer+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/UIView+AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/AnyPromise.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerConfig.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout+Internal.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKFoundation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GooglePlacePicker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Headers/GMSPlacePickerViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayoutDefines.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit-Swift.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PMKUIKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Headers/PromiseKit.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSLayoutConstraint+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/ALView+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/NSArray+PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Headers/PureLayout.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework/Modules/module.modulemap"
+- "/Users/fallaha/Documents/Fallah Code Sampe/DerivedData/FallahCodeSample/Build/Products/Debug-iphonesimulator/PureLayout/PureLayout.framework/Modules/module.modulemap"
+interface-hash: "fc6634b52f868fbf0cb936dc3b4726db"
